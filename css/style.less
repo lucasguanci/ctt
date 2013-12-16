@@ -14,6 +14,7 @@
  * Mixins
 **/
 .clear { clear: both; }
+.hidden { display: none; }
 .shadow(@alfa: 0.8) {
   -webkit-box-shadow: inset 0px 8px 8px -6px rgba(0, 0, 0, @alfa);
   -moz-box-shadow: inset 0px 8px 8px -6px rgba(0, 0, 0, @alfa);
@@ -241,11 +242,14 @@ div.icons {
 div.box {
   header {
     border-bottom: @background solid 1px;
-    p {
+    padding: 1em 15px 0.5em 15px;
+    h2 {
+      font-size: 100%;
       text-transform: uppercase;
-      font-weight: bolder;
-      padding: 1em 15px 0.5em 15px;
       margin: 0;
+      span {
+        font-weight: normal;
+      }
     }
   }
   div.box-content {
@@ -305,7 +309,29 @@ div#avvisi {
     }
   }
 }
-
+div#viaggia-con-noi {
+  ul {
+    list-style-type: none;
+    padding-left: 15px;
+    li {
+      display: block;
+    }
+  }
+  ul ul  {
+    padding-left: 15px;
+    li {
+      &:last-child {
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+  a {
+    color: black;
+  }
+  a.active {
+    font-weight: bolder;
+  }
+}
 
 /**
  * Content
@@ -328,6 +354,35 @@ div.content {
     };
   }
 }
+div.content.secondary {
+  header {
+    margin-top: 2.5em;
+    h2 {
+      margin: 0;
+      font-size: 120%;
+      font-weight: bolder;
+      text-transform: uppercase;
+      float: left;
+    }
+    ul {      
+      text-align: right;
+      list-style-type: none;
+      li {
+        display: inline;
+        a {
+          color: @dark-gray;
+        }
+      }
+    }
+  }
+  section.cnt {
+    clear: both;
+  }
+  section.footer {
+    margin-top: 1em;
+    color: @dark-gray;
+  }
+}
 div.highlights {
   margin-bottom: 1em;
   margin-top: 1em;
@@ -340,5 +395,16 @@ div.highlights {
 div.highlights, div.small-highlights {
   article {
     margin: 1em 0;
+  }
+}
+/**
+ * Allegati
+ */
+div.allegati {
+  margin-top: 1.5em;
+  div.box div.box-content ul {
+    li {
+      display: block;
+    }
   }
 }

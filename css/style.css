@@ -7,6 +7,9 @@
 .clear {
   clear: both;
 }
+.hidden {
+  display: none;
+}
 .box {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -225,12 +228,15 @@ div.icons ul li a:hover {
 }
 div.box header {
   border-bottom: #fffcf8 solid 1px;
-}
-div.box header p {
-  text-transform: uppercase;
-  font-weight: bolder;
   padding: 1em 15px 0.5em 15px;
+}
+div.box header h2 {
+  font-size: 100%;
+  text-transform: uppercase;
   margin: 0;
+}
+div.box header h2 span {
+  font-weight: normal;
 }
 div.box div.box-content {
   padding: 1em 15px;
@@ -284,6 +290,25 @@ div#avvisi div.list-content h4 {
   font-size: 85%;
   color: #005495;
 }
+div#viaggia-con-noi ul {
+  list-style-type: none;
+  padding-left: 15px;
+}
+div#viaggia-con-noi ul li {
+  display: block;
+}
+div#viaggia-con-noi ul ul {
+  padding-left: 15px;
+}
+div#viaggia-con-noi ul ul li:last-child {
+  margin-bottom: 0.5em;
+}
+div#viaggia-con-noi a {
+  color: black;
+}
+div#viaggia-con-noi a.active {
+  font-weight: bolder;
+}
 /**
  * Content
 **/
@@ -303,6 +328,33 @@ div.content figure figcaption {
   background-color: rgba(0, 0, 0, 0.65);
   color: white;
 }
+div.content.secondary header {
+  margin-top: 2.5em;
+}
+div.content.secondary header h2 {
+  margin: 0;
+  font-size: 120%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  float: left;
+}
+div.content.secondary header ul {
+  text-align: right;
+  list-style-type: none;
+}
+div.content.secondary header ul li {
+  display: inline;
+}
+div.content.secondary header ul li a {
+  color: #5a5a5a;
+}
+div.content.secondary section.cnt {
+  clear: both;
+}
+div.content.secondary section.footer {
+  margin-top: 1em;
+  color: #5a5a5a;
+}
 div.highlights {
   margin-bottom: 1em;
   margin-top: 1em;
@@ -315,4 +367,13 @@ div.highlights h2 {
 div.highlights article,
 div.small-highlights article {
   margin: 1em 0;
+}
+/**
+ * Allegati
+ */
+div.allegati {
+  margin-top: 1.5em;
+}
+div.allegati div.box div.box-content ul li {
+  display: block;
 }
