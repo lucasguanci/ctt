@@ -78,18 +78,34 @@
     box-shadow: white;
   }
 }
-
+.bw {}
+.wb {
+  background-color: black;
+  color: white;
+}
+.hi-contrast {}
+.text-only {}
 
 /**
  * Fonts
  */
+strong, b {
+  font-weight: bold;
+}
+em, i {
+  font-style: italic;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: bold;
+}
 
 /**
  * Body 
  */
 body {
+  font-family: 'Lato', Arial, sans-serif;
   background-color: @background;
-  font-family: Arial, sans-serif;
   line-height: 1.25em;
 }
 
@@ -141,6 +157,8 @@ div.aree-riservate ul {
 button.search {
   padding: 0.25em 10px;
   margin: 0.75em 15px;
+  width: 120px;
+  text-align: left;
   background: none;
   border: solid 1px @light-gray;
   color: @gray;
@@ -194,6 +212,31 @@ div.banner {
 **/
 div.sidebar {
   margin-top: 1.5em;
+}
+div.icons {
+  ul {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    li {
+      display: inline;
+      padding-left: 0;
+      margin-right: 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+      a {
+        text-decoration: none;
+        color: @dark-blue;
+        &:hover {
+          color: black;
+        };
+      }
+    }
+  }
 }
 div.box {
   header {
@@ -277,6 +320,8 @@ div.content {
       position: absolute;
       bottom: 0;
       padding: 1em 15px;
+      font-weight: bolder;
+      text-transform: uppercase;
       width: 100%;
       background-color: rgba(0,0,0,0.65);
       color: white;

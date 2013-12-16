@@ -7,6 +7,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- CTT stylesheets -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font.css" />    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,12 +22,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 header-left">
-            <img src="img/logo-CAP-autolinee.png" />
+            <img id="logo" src="img/logo-CAP-autolinee.png" />
           </div>          
           <div class="col-md-6 header-right">
             <div class="row search">
               <nav class="navbar navbar-default" role="navigation">
                 <ul class="nav navbar-nav">
+                  <li><a id="wb" href="index.html">alto contrasto</a></li>
                   <li class="active"><a href="#">IT</a></li>
                   <li><a href="#">EN</a></li>
                   <li>
@@ -91,10 +94,16 @@
         <div class="row">
           <!-- sidebar -->
           <div class="col-md-3 sidebar">
-<!--             <div class="icons">
-              Icone
+            <div class="icons">
+              <ul>
+                <li><a href="#" title="Orari e linee"><i class="fa fa-lg fa-clock-o"></i></a></li>
+                <li><a href="#" title="Biglietti"><i class="fa fa-lg fa-ticket"></i></a></li>
+                <li><a href="#" title="Avvisi"><i class="fa fa-lg fa-wrench"></i></a></li>
+                <li><a href="#" title="Richiesta info"><i class="fa fa-lg fa-rss"></i></a></li>
+                <li><a href="#" title="Twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
+              </ul>
             </div>
- -->            <div id="travel-planner" class="box">
+            <div id="travel-planner" class="box">
               <header>
                 <p><span class="glyphicon glyphicon-random" style="padding-right: 20px"></span>&nbsp;Travel Planner</p>
               </header>
@@ -148,7 +157,7 @@
             <header class="intro">
               <article>
                 <h2>CAP Autolinee</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                <p>Lorem ipsum dolor sit amet, <strong>consetetur</strong> sadipscing elitr, sed diam nonumy <em>eirmod tempor</em> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
               </article>
             </header>
             <!-- /intro -->
@@ -217,5 +226,7 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- CTT -->
+    <script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>
