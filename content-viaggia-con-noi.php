@@ -9,8 +9,9 @@
     <header>
       <h2>Linee urbane</h2>
       <ul>
-        <li><a href="#">stampa</a></li>
-        <li><a href="#">invia a un amico</a></li>
+        <li><i class="fa fa-print"></i>&nbsp;<a href="#">stampa</a></li>
+        <li class="sep">|</li>
+        <li><i class="fa fa-envelope-o"></i>&nbsp;<a href="#">invia a un amico</a></li>
       </ul>
     </header>
     <section class="cnt">
