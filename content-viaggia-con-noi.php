@@ -4,7 +4,7 @@
 */
 ?>
 <!-- main-content -->
-<div class="col-md-6 content secondary">
+<div class="col-md-6 col-sm-12 col-md-pull-3 floatright content secondary">
   <article>
     <header>
       <h2>Linee urbane</h2>
@@ -24,7 +24,7 @@
 </div>
 <!-- /main-content -->
 <!-- allegati -->
-<div class="col-md-3 allegati">
+<div class="col-md-3 col-sm-12 col-md-push-6 floatright allegati">
   <div class="box">
     <header>
       <h2>Documenti allegati</h2>

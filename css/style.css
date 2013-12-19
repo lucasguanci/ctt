@@ -73,6 +73,19 @@
   color: white;
 }
 /**
+ * make possible to exchange columns order on mobile devices, i.e.
+ * <div class="col-md-9 floatright">right col on medium sizes</div>
+ * <div class="col-md-3">right col on mobile devices</div>
+*/
+.floatright {
+  float: right;
+}
+@media screen and (max-width: 767px) {
+  .floatright {
+    float: none;
+  }
+}
+/**
  * Fonts
  */
 strong,
@@ -197,13 +210,22 @@ div.main-nav ul.navbar-nav {
   text-transform: uppercase;
   font-weight: bolder;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   div.header-right {
     display: none;
   }
   div.main-nav ul.navbar-nav {
     float: none;
     text-align: left;
+  }
+  div.secondary-nav li {
+    margin-bottom: 1em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  div.main-nav ul.navbar-nav {
+    float: right;
+    text-align: right;
   }
 }
 /**
@@ -235,7 +257,12 @@ div.icons ul li a {
 div.icons ul li a:hover {
   color: black;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
+  div.icons {
+    /* uncomment display: none if icons should be displayed */
+  
+    display: none;
+  }
   div.icons ul li {
     margin-right: 25px;
   }
@@ -304,24 +331,32 @@ div#avvisi div.list-content h4 {
   font-size: 85%;
   color: #005495;
 }
-div#viaggia-con-noi ul {
+div#secondary-nav ul {
   list-style-type: none;
   padding-left: 15px;
 }
-div#viaggia-con-noi ul li {
+div#secondary-nav ul li {
   display: block;
 }
-div#viaggia-con-noi ul ul {
+div#secondary-nav ul ul {
   padding-left: 15px;
 }
-div#viaggia-con-noi ul ul li:last-child {
+div#secondary-nav ul ul li:last-child {
   margin-bottom: 0.5em;
 }
-div#viaggia-con-noi a {
+div#secondary-nav a {
   color: black;
 }
-div#viaggia-con-noi a.active {
+div#secondary-nav a.active {
   font-weight: bolder;
+}
+@media screen and (max-width: 991px) {
+  div#secondary-nav ul ul {
+    padding-left: 15px;
+  }
+  div#secondary-nav ul ul li:last-child {
+    margin-bottom: 1.5em;
+  }
 }
 /**
  * Content

@@ -4,7 +4,7 @@
 */
 ?>
 <!-- content -->
-<div class="col-md-9 content">
+<div class="col-md-9 floatright content">
 <!-- intro -->
 <header class="intro">
   <article>

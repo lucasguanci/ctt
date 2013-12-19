@@ -28,11 +28,11 @@
     <section id="main">
       <div class="container">
         <div class="row">
-          <!-- sidebar -->
-          <?php include('sidebar.php'); ?>
-          <div class="clearfix visible-sm visible-xs"></div>
           <!-- content -->
           <?php include('content.php'); ?>
+          <div class="clearfix visible-sm visible-xs"></div>
+          <!-- sidebar -->
+          <?php include('sidebar.php'); ?>
           <div class="clearfix visible-sm visible-xs"></div>
         </div>
       </div>
