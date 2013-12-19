@@ -182,6 +182,9 @@ div.top-menu {
     }
   }
 }
+div.banner { 
+  img { width: 100%; } 
+}
 div.main-nav {
   nav.navbar {
     background-color: @dark-blue;
@@ -204,9 +207,18 @@ div.main-nav {
     font-weight: bolder;
   }
 }
-div.banner { 
-  img { width: 100%; } 
+@media screen and (max-width: 768px) {
+  div.header-right {
+    display: none;
+  }
+  div.main-nav {
+    ul.navbar-nav {
+      float: none;
+      text-align: left;
+    }
+  }
 }
+
 
 /**
  * Sidebar
@@ -236,6 +248,13 @@ div.icons {
           color: black;
         };
       }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  div.icons {
+    ul li {
+      margin-right: 25px;
     }
   }
 }

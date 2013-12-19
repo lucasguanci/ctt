@@ -168,6 +168,9 @@ div.top-menu ul.navbar-nav li a {
   padding: 0;
   color: #5a5a5a;
 }
+div.banner img {
+  width: 100%;
+}
 div.main-nav nav.navbar {
   background-color: #005495;
   -webkit-box-shadow: inset 0px 8px 8px -6px rgba(0, 0, 0, 0.8);
@@ -194,8 +197,14 @@ div.main-nav ul.navbar-nav {
   text-transform: uppercase;
   font-weight: bolder;
 }
-div.banner img {
-  width: 100%;
+@media screen and (max-width: 768px) {
+  div.header-right {
+    display: none;
+  }
+  div.main-nav ul.navbar-nav {
+    float: none;
+    text-align: left;
+  }
 }
 /**
  * Sidebar
@@ -225,6 +234,11 @@ div.icons ul li a {
 }
 div.icons ul li a:hover {
   color: black;
+}
+@media screen and (max-width: 768px) {
+  div.icons ul li {
+    margin-right: 25px;
+  }
 }
 div.box header {
   border-bottom: #fffcf8 solid 1px;

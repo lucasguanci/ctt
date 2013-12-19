@@ -7,10 +7,10 @@
 <section class="header">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 header-left">
+      <div class="col-md-6 col-xs-12 header-left">
         <a href="index.php"><img id="logo" src="img/logo-CAP-autolinee.png" alt="logo CAP autolinee" /></a>
       </div>          
-      <div class="col-md-6 header-right">
+      <div class="col-md-6 col-xs-12 header-right">
         <div class="row search">
           <nav class="navbar navbar-default" role="navigation">
             <ul class="nav navbar-nav">
