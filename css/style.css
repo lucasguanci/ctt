@@ -377,6 +377,9 @@ div.content figure figcaption {
   background-color: rgba(0, 0, 0, 0.65);
   color: white;
 }
+div.content.secondary {
+  min-height: 40em;
+}
 div.content.secondary .fa {
   color: #5a5a5a;
 }
@@ -432,4 +435,73 @@ div.allegati {
 }
 div.allegati div.box div.box-content ul li {
   display: block;
+}
+/**
+ * Footer
+ */
+footer {
+  /*background-color: @dark-blue;*/
+
+}
+footer .footer-first {
+  padding-left: 30px;
+}
+footer .footer-last {
+  padding-right: 30px;
+}
+div.nav-footer {
+  /*.shadow(0.6);*/
+
+  margin-top: 2em;
+  color: white;
+}
+div.nav-footer div.row {
+  -webkit-box-shadow: inset 0px 8px 8px -6px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0px 8px 8px -6px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0px 8px 8px -6px rgba(0, 0, 0, 0.6);
+  background-color: #005495;
+  padding-bottom: 1em;
+  /*margin: 1em 0;*/
+
+}
+div.nav-footer h3 {
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 2px;
+  margin-bottom: 0.25em;
+  padding-bottom: 4px;
+  border-bottom: 1px dotted #c8c8c8;
+}
+div.nav-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+div.nav-footer ul li {
+  margin-bottom: 0.25em;
+}
+div.nav-footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+div.nav-footer ul li a:hover {
+  text-decoration: underline;
+}
+div.info-footer {
+  /*background-color: @dark-blue;*/
+
+  color: white;
+}
+div.info-footer div.row {
+  background-color: #005495;
+  border-top: 1px solid #c8c8c8;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  /*margin: 1em 0;*/
+
+  margin-top: 0;
+}
+div.info-footer p {
+  font-size: 90%;
+  line-height: 1.5em;
 }

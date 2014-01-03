@@ -31,9 +31,9 @@
               </header>
               <div class="box-content">
                 <ul>
-                  <li><a href="#">Urbano Prato</li>
-                  <li><a href="#">Linea V</li>
-                  <li><a href="#">Linea F</li>
+                  <li><a href="#">Urbano Prato</a></li>
+                  <li><a href="#">Linea V</a></li>
+                  <li><a href="#">Linea F</a></li>
                 </ul>
               </div>
             </div>
