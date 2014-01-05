@@ -7,7 +7,7 @@
           <div class="col-md-6 col-sm-12 col-md-pull-3 floatright content secondary">
             <article>
               <header>
-                <h2>Linee urbane</h2>
+                <h2>Notizie</h2>
                 <ul>
                   <li><i class="fa fa-print"></i>&nbsp;<a href="#">stampa</a></li>
                   <li class="sep">|</li>
@@ -23,19 +23,20 @@
             </article>
           </div>
           <!-- /main-content -->
-          <!-- allegati -->
-          <div class="col-md-3 col-sm-12 col-md-push-6 floatright right-sidebar allegati">
+          <!-- right sidebar -->
+          <div class="col-md-3 col-sm-12 col-md-push-6 floatright right-sidebar iscrizione-notizie">
             <div class="box">
               <header>
-                <h2>Documenti allegati</h2>
+                <h2><i class="fa fa-rss"></i> Notifica notizie</h2>
               </header>
               <div class="box-content">
-                <ul>
-                  <li><a href="#">Urbano Prato</a></li>
-                  <li><a href="#">Linea V</a></li>
-                  <li><a href="#">Linea F</a></li>
-                </ul>
+                <p>
+                  Ricevi le notizie direttamente sul tuo cellulare.
+                </p>
+                <p>
+                  <i class="fa fa-chevron-circle-right"></i> Iscriviti al servizio
+                </p>
               </div>
             </div>
           </div>
-          <!-- /allegati -->
+          <!-- /right sidebar -->

@@ -58,7 +58,7 @@
                   <li><a href="#">Azienda</a></li>
                   <li><a href="tpl-viaggia-con-noi.php">Viaggia con noi</a></li>
                   <li><a href="#">Parla con noi</a></li>
-                  <li><a href="#">Notizie</a></li>
+                  <li><a href="tpl-notizie-index.php">Notizie</a></li>
                 </ul>
               </div>
               <!-- /.navbar-collapse -->

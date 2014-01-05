@@ -377,6 +377,7 @@ div.content figure figcaption {
   background-color: rgba(0, 0, 0, 0.65);
   color: white;
 }
+/* pagina secondaria std */
 div.content.secondary {
   min-height: 40em;
 }
@@ -414,6 +415,42 @@ div.content.secondary section.footer {
   margin-top: 1em;
   color: #5a5a5a;
 }
+/* notizie */
+div.content.secondary.notizie article {
+  margin-top: 2em;
+}
+div.content.secondary.notizie article h4 {
+  font-size: 92.85%;
+  margin: 0;
+  color: #5a5a5a;
+}
+div.content.secondary.notizie article h2 {
+  margin: 0.25em 0;
+  font-size: 114.28%;
+  color: #005495;
+}
+div.content.secondary.notizie article a {
+  color: #005495;
+}
+div.content.secondary.notizie article.first {
+  margin-top: 0;
+}
+div.content.secondary.notizie.approfondimenti img {
+  max-width: 33%;
+  margin-right: 1em;
+  float: left;
+}
+div.content.secondary.notizie.approfondimenti p {
+  text-align: left;
+}
+div.content.secondary.notizie.approfondimenti.dettaglio img {
+  float: none;
+  max-width: 100%;
+}
+div.content.secondary.notizie.approfondimenti.dettaglio p {
+  margin-top: 1em;
+}
+/* home page highlights */
 div.highlights {
   margin-bottom: 1em;
   margin-top: 1em;
@@ -428,13 +465,18 @@ div.small-highlights article {
   margin: 1em 0;
 }
 /**
- * Allegati
+ * Right sidebar
  */
-div.allegati {
+div.right-sidebar {
   margin-top: 1.5em;
 }
-div.allegati div.box div.box-content ul li {
+div.right-sidebar div.box div.box-content ul li {
   display: block;
+}
+/* allegati */
+/* iscrizione-notizie */
+div.iscrizione-notizie header p {
+  margin: 0;
 }
 /**
  * Footer

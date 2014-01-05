@@ -14,7 +14,7 @@
                 <li><a href="#" title="Twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
               </ul>
             </div>
-            <div id="secondary-nav" class="box">
+            <div id="secondary-nav" class="box notizie">
               <header>
                 <h2>Viaggia con noi</h2>
               </header>

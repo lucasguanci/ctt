@@ -9,7 +9,7 @@
               <ul>
                 <li><a href="#" title="Orari e linee"><i class="fa fa-lg fa-clock-o"></i></a></li>
                 <li><a href="#" title="Biglietti"><i class="fa fa-lg fa-ticket"></i></a></li>
-                <li><a href="#" title="Avvisi"><i class="fa fa-lg fa-wrench"></i></a></li>
+                <li><a href="tpl-notizie.php" title="Avvisi"><i class="fa fa-lg fa-wrench"></i></a></li>
                 <li><a href="#" title="Richiesta info"><i class="fa fa-lg fa-rss"></i></a></li>
                 <li><a href="#" title="Twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
               </ul>
@@ -44,7 +44,7 @@
                   <span class="glyphicon glyphicon-random"></span>
                 </div>
                 <div class="list-content">
-                  <h4>12 giugno 2013</h4>
+                  <h4>12 giugno 2013</h4
                   <h3>MODIFICA PERCORSO 9</h3>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr...</p> 
                 </div>
