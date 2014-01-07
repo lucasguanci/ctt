@@ -34,6 +34,7 @@
                   <li><a href="#">Area istituzioni</a></li>
                   <li><a href="#">Area fornitori</a></li>
                   <li><a href="#">Lavora con noi</a></li>
+                  <li><a href="#" data-toggle="tooltip" title="Twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
                 </ul>
               </nav>
             </div>

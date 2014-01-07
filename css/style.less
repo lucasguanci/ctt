@@ -191,6 +191,9 @@ div.top-menu {
     }
   }
 }
+ul.navbar-nav .tooltip {
+  margin-top: 1em;
+}
 div.banner { 
   img { width: 100%; } 
 }
@@ -257,7 +260,7 @@ div.icons {
     li {
       display: inline;
       padding-left: 0;
-      margin-right: 10px;
+      margin-right: 12px;
       &:last-child {
         margin-right: 0;
       }
@@ -268,6 +271,8 @@ div.icons {
           color: black;
         };
       }
+    }
+    div.tooltip {
     }
   }
 }
@@ -326,14 +331,17 @@ div#travel-planner {
   a.active {
     font-weight: bolder;
   }
+  h2 a {
+    color: black;
+  }
 }
 div#avvisi {
   div.list-icon {
-    width: 20%;
+    width: 10%;
     float: left;
   }
   div.list-content {
-    margin-left: 20%;
+    margin-left: 10%;
     padding-left: 5%;
     h3 {
       margin: 0;

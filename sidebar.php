@@ -7,16 +7,18 @@
           <div class="col-md-3 sidebar">
             <div class="icons">
               <ul>
-                <li><a href="#" title="Orari e linee"><i class="fa fa-lg fa-clock-o"></i></a></li>
-                <li><a href="#" title="Biglietti"><i class="fa fa-lg fa-ticket"></i></a></li>
-                <li><a href="tpl-notizie.php" title="Avvisi"><i class="fa fa-lg fa-wrench"></i></a></li>
-                <li><a href="#" title="Richiesta info"><i class="fa fa-lg fa-rss"></i></a></li>
-                <li><a href="#" title="Twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
+                <li><a href="#" data-toggle="tooltip" title="Linee e orari"><i class="fa fa-lg fa-clock-o"></i></a></li>
+                <li><a href="#"  data-toggle="tooltip" title="Biglietti e abbonamenti"><i class="fa fa-lg fa-ticket"></i></a></li>
+                <li><a href="tpl-notizie.php"  data-toggle="tooltip" title="Biglietterie e rivendite"><i class="fa fa-lg fa-building-o"></i></a></li>
+                <li><a href="#" data-toggle="tooltip" title="Avvisi e news"><i class="fa fa-lg fa-rss"></i></a></li>
               </ul>
             </div>
             <div id="travel-planner" class="box">
               <header>
-                <p><span class="glyphicon glyphicon-random" style="padding-right: 20px"></span>&nbsp;Travel Planner</p>
+                <h2>
+                  <i class="fa fa-lg fa-code-fork"></i>&nbsp;
+                  <a data-toggle="collapse" data-target="#travel-planner-cnt">Calcola percorso</a>
+                </h2>
               </header>
               <div class="box-content">
                 <ul>
@@ -34,14 +36,16 @@
             </div>
             <div id="avvisi" class="box">
               <header>
-                <p><span class="glyphicon glyphicon-list" style="padding-right: 20px"></span>&nbsp;News e avvisi</p>
+                <h2>
+                  <i class="fa fa-lg fa-edit"></i>&nbsp;
+                  <a data-toggle="collapse" data-target="#travel-planner-cnt">News e avvisi</a>
               </header>
               <!-- avvisi e flash news -->
               <div class="box-content">
                 <p>filtra per <a href="#">avvisi</a> | <a href="#">flash news</a></p>
                 <!-- 1 -->
                 <div class="list-icon">
-                  <span class="glyphicon glyphicon-random"></span>
+                  <i class="fa fa-info-circle"></i>&nbsp;
                 </div>
                 <div class="list-content">
                   <h4>12 giugno 2013</h4
@@ -50,7 +54,7 @@
                 </div>
                 <!-- 2 -->
                 <div class="list-icon">
-                  <span class="glyphicon glyphicon-random"></span>
+                  <i class="fa fa-pencil"></i>&nbsp;
                 </div>
                 <div class="list-content">
                   <h4>6 ottobre 2013</h4>

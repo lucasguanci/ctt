@@ -7,11 +7,10 @@
           <div class="col-md-3 sidebar">
             <div class="icons">
               <ul>
-                <li><a href="#" title="Orari e linee"><i class="fa fa-lg fa-clock-o"></i></a></li>
-                <li><a href="#" title="Biglietti"><i class="fa fa-lg fa-ticket"></i></a></li>
-                <li><a href="#" title="Avvisi"><i class="fa fa-lg fa-wrench"></i></a></li>
-                <li><a href="#" title="Richiesta info"><i class="fa fa-lg fa-rss"></i></a></li>
-                <li><a href="#" title="Twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
+                <li><a href="#" data-toggle="tooltip" title="Linee e orari"><i class="fa fa-lg fa-clock-o"></i></a></li>
+                <li><a href="#"  data-toggle="tooltip" title="Biglietti e abbonamenti"><i class="fa fa-lg fa-ticket"></i></a></li>
+                <li><a href="tpl-notizie.php"  data-toggle="tooltip" title="Biglietterie e rivendite"><i class="fa fa-lg fa-building-o"></i></a></li>
+                <li><a href="#" data-toggle="tooltip" title="Avvisi e news"><i class="fa fa-lg fa-rss"></i></a></li>
               </ul>
             </div>
             <div id="secondary-nav" class="box notizie">
@@ -21,18 +20,19 @@
               <div class="box-content secondary-nav">
                 <ul>
                   <li><a href="tpl-notizie.php" class="active">Avvisi</a></li>
-                  <li><a href="tpl-notizie.php">Info bus</a></li>
-                  <li><a href="tpl-notizie-approfondimenti.php">Approfondimenti</a></li>
+                  <li><a href="tpl-notizie.php">News</a></li>
+                  <li><a href="tpl-notizie-approfondimenti.php">In evidenza</a></li>
+                  <li><a href="#">Convenzioni</a></li>
                   <li><a href="#">Comunicati stampa</a></li>
-                  <li><a href="#">Promozioni</a></li>
                 </ul>
               </div>
             </div>
             <div id="travel-planner" class="box">
               <header>
                 <h2>
-                  <span class="glyphicon glyphicon-random" style="padding-right: 20px"></span>&nbsp;
-                  <a data-toggle="collapse" data-target="#travel-planner-cnt">Travel Planner</a>
+                  <i class="fa fa-lg fa-code-fork"></i>&nbsp;
+                  <a data-toggle="collapse" data-target="#travel-planner-cnt">Calcola percorso</a>
+                </h2>
               </header>
               <div id="travel-planner-cnt" class="box-content collapse">
                 <ul>

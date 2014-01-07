@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $('a[data-toggle=tooltip]').tooltip();
+  // white on black version
   isWB = 0;
   $('#wb').bind('click',function(e) {
     return toggleWB();
