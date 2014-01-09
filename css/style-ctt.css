@@ -1,0 +1,73 @@
+/**
+ * colors
+ */
+/**
+ * Header
+ */
+div.aree-riservate {
+  margin-top: 1em;
+}
+i.fa-twitter {
+  color: #faab18;
+}
+div.main-nav nav.navbar {
+  background-color: #faab18;
+}
+/**
+ * Sidebar
+ */
+div.box div.box-content.servizi-territoriali {
+  border-bottom: 1px solid #fafafa;
+  padding-bottom: 0;
+}
+div.box div.box-content.servizi-territoriali ul li {
+  display: block;
+  color: #faab18;
+}
+div.box div.box-content.servizi-territoriali ul li .fa {
+  font-size: 90%;
+}
+div.box div.box-content.servizi-territoriali ul li a {
+  font-weight: bolder;
+  color: #333333;
+  text-transform: uppercase;
+}
+div.box div.box-content.servizi-territoriali.sub {
+  border-bottom: none;
+  padding-bottom: 15px;
+}
+div.box div.box-content.servizi-territoriali.sub a {
+  font-weight: normal;
+}
+div.icons ul li a {
+  color: #faab18;
+}
+div#avvisi div.list-content h4 {
+  color: #faab18;
+}
+/**
+ * Content
+ */
+div.content.secondary.notizie article h2 {
+  color: #faab18;
+}
+div.content.secondary.notizie article a {
+  color: #faab18;
+}
+div.highlights h2,
+div.highlights a {
+  color: #faab18;
+}
+/**
+ * Footer
+ */
+div.nav-footer div.row {
+  background-color: #faab18;
+}
+div.nav-footer h3 {
+  border-bottom: 1px dotted #fafafa;
+}
+div.info-footer div.row {
+  background-color: #faab18;
+  border-top: 1px solid #fafafa;
+}

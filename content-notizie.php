@@ -4,15 +4,18 @@
 */
 ?>
           <!-- main-content -->
-          <div class="col-md-6 col-sm-12 col-md-pull-3 floatright content secondary notizie">
+          <div class="col-md-6 col-sm-12 content secondary notizie">
             <section class="notizie index">
               <header>
-                <h2>Avvisi</h2>
+                <h2>Avvisi e News</h2>
                 <ul>
                   <li><i class="fa fa-print"></i>&nbsp;<a href="#">stampa</a></li>
                   <li class="sep">|</li>
                   <li><i class="fa fa-envelope-o"></i>&nbsp;<a href="#">invia a un amico</a></li>
                 </ul>
+                <p class="filter">
+                  filtra per <a href="#">Avvisi</a> | <a href="#">News</a>
+                </p>
               </header>
               <article class="index first">
                 <h4>20 settembre 2013</h4>
@@ -37,10 +40,10 @@
           </div>
           <!-- /main-content -->
           <!-- right sidebar -->
-          <div class="col-md-3 col-sm-12 col-md-push-6 floatright right-sidebar iscrizione-notizie">
+          <div class="col-md-3 col-sm-12 right-sidebar iscrizione-notizie">
             <div class="box">
               <header>
-                <h2><i class="fa fa-rss"></i> Notifica notizie</h2>
+                <h2><i class="fa fa-rss-square"></i> Notifica notizie</h2>
               </header>
               <div class="box-content">
                 <p>

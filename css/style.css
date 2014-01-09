@@ -181,6 +181,12 @@ div.top-menu ul.navbar-nav li a {
   padding: 0;
   color: #5a5a5a;
 }
+i.fa-twitter {
+  color: #005495;
+}
+i.fa-twitter:hover {
+  color: #333333;
+}
 ul.navbar-nav .tooltip {
   margin-top: 1em;
 }
@@ -249,6 +255,7 @@ div.icons ul li {
   display: inline;
   padding-left: 0;
   margin-right: 12px;
+  font-size: 120%;
 }
 div.icons ul li:last-child {
   margin-right: 0;
@@ -264,10 +271,15 @@ div.icons ul li a:hover {
   div.icons {
     /* uncomment display: none if icons should be displayed */
   
-    display: none;
+    /*display: none;*/
+  
+  }
+  div.icons ul {
+    margin: 2em 0;
   }
   div.icons ul li {
-    margin-right: 25px;
+    margin-right: 50px;
+    font-size: 130%;
   }
 }
 div.box header {
@@ -315,6 +327,11 @@ div#travel-planner a.active {
 }
 div#travel-planner h2 a {
   color: black;
+}
+div#travel-planner form input[type=submit] {
+  margin-top: 0.5em;
+  background-color: #808080;
+  color: white;
 }
 div#avvisi div.list-icon {
   width: 10%;
@@ -422,6 +439,9 @@ div.content.secondary section.footer {
   color: #5a5a5a;
 }
 /* notizie */
+div.content.secondary.notizie p.filter {
+  margin-bottom: 20px;
+}
 div.content.secondary.notizie article {
   margin-top: 2em;
 }

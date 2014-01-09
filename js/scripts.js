@@ -8,7 +8,7 @@ $(document).ready(function() {
 })
 function toggleWB() {
   if ( !isWB ) {
-    $('body, div, p, a, h1, h2, h3, h4, h5, h6, strong, em, label').css('background','black').css('color','white');
+    $('body, div, p, a, h1, h2, h3, h4, h5, h6, strong, em, label, .fa').css('background','black').css('color','white');
     $('#logo').attr('src','img/logo-cap-autolinee-wb.png');
     isWB = 1;
     return false;

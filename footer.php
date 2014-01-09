@@ -60,7 +60,7 @@
           <div class="row">
             <div class="col-md-12 info footer-first footer-last">
               <p>
-                <strong>CAP AUTOLINEE</strong><br>
+                <strong>CTT nord</strong><br>
                 piazza Duomo, 59100 Prato<br>
                 tel. 050 884111 &ndash; fax 050 884284<br>
                 info@cttcompany.it &ndash; cttnordsrl@legalmail.it<br>

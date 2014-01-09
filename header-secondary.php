@@ -8,8 +8,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 header-left">
-            <a href="index.php"><img id="logo" src="img/logo-CAP-autolinee.png" alt="logo CAP autolinee" /></a>
-          </div>          
+            <a href="index.php"><img id="logo" src="img/logo-CTT-compagnia-toscana-trasporti.png" alt="logo CAP autolinee" /></a>          </div>          
           <div class="col-md-6 header-right">
             <div class="row search">
               <nav class="navbar navbar-default" role="navigation">
@@ -51,7 +50,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">CAP Autolinee</a>
+                <a class="navbar-brand" href="index.php">Compagnia Toscana Trasporti</a>
               </div>
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

@@ -7,10 +7,10 @@
           <div class="col-md-3 sidebar">
             <div class="icons">
               <ul>
-                <li><a href="#" data-toggle="tooltip" title="Linee e orari"><i class="fa fa-lg fa-clock-o"></i></a></li>
-                <li><a href="#"  data-toggle="tooltip" title="Biglietti e abbonamenti"><i class="fa fa-lg fa-ticket"></i></a></li>
-                <li><a href="tpl-notizie.php"  data-toggle="tooltip" title="Biglietterie e rivendite"><i class="fa fa-lg fa-building-o"></i></a></li>
-                <li><a href="#" data-toggle="tooltip" title="Avvisi e news"><i class="fa fa-lg fa-rss"></i></a></li>
+                <li><a href="#" data-toggle="tooltip" title="LINEE E ORARI"><i class="fa fa-lg fa-clock-o"></i></a></li>
+                <li><a href="#"  data-toggle="tooltip" title="BIGLIETTI E ABBONAMENTI"><i class="fa fa-lg fa-tags"></i></a></li>
+                <li><a href="tpl-notizie.php"  data-toggle="tooltip" title="BIGLIETTERIE E RIVENDITE"><i class="fa fa-lg fa-user"></i></a></li>
+                <li><a href="#" data-toggle="tooltip" title="AVVISI E NEWS"><i class="fa fa-lg fa-info-circle"></i></a></li>
               </ul>
             </div>
             <div id="secondary-nav" class="box notizie">
@@ -19,8 +19,7 @@
               </header>
               <div class="box-content secondary-nav">
                 <ul>
-                  <li><a href="tpl-notizie.php" class="active">Avvisi</a></li>
-                  <li><a href="tpl-notizie.php">News</a></li>
+                  <li><a href="tpl-notizie.php" class="active">Avvisi e News</a></li>
                   <li><a href="tpl-notizie-approfondimenti.php">In evidenza</a></li>
                   <li><a href="#">Convenzioni</a></li>
                   <li><a href="#">Comunicati stampa</a></li>
@@ -30,7 +29,7 @@
             <div id="travel-planner" class="box">
               <header>
                 <h2>
-                  <i class="fa fa-lg fa-code-fork"></i>&nbsp;
+                  <i class="fa fa-lg fa-cogs"></i>&nbsp;
                   <a data-toggle="collapse" data-target="#travel-planner-cnt">Calcola percorso</a>
                 </h2>
               </header>

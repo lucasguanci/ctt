@@ -6,14 +6,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CAP Autolinee - Prato</title>
+    <title>CTT nord - Compagnia Toscana Trasporti</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- CTT stylesheets -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/font.css" />    
+    <link href="css/style-ctt.css" rel="stylesheet">
+    <link href="http:http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet" />    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -28,11 +29,11 @@
     <section id="main">
       <div class="container">
         <div class="row">
-          <!-- content -->
-          <?php include('content.php'); ?>
-          <div class="clearfix visible-sm visible-xs"></div>
           <!-- sidebar -->
           <?php include('sidebar.php'); ?>
+          <div class="clearfix visible-sm visible-xs"></div>
+          <!-- content -->
+          <?php include('content.php'); ?>
           <div class="clearfix visible-sm visible-xs"></div>
         </div>
       </div>
@@ -46,7 +47,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!-- CTT -->
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 
   </body>
 </html>

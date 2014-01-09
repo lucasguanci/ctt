@@ -4,7 +4,7 @@
 */
 ?>
           <!-- main-content -->
-          <div class="col-md-6 col-sm-12 col-md-pull-3 floatright content secondary notizie approfondimenti dettaglio">
+          <div class="col-md-6 col-sm-12 content secondary notizie approfondimenti dettaglio">
             <section class="notizie approfondimenti index">
               <header>
                 <h2>Approfondimenti</h2>
@@ -30,10 +30,10 @@
           </div>
           <!-- /main-content -->
           <!-- right sidebar -->
-          <div class="col-md-3 col-sm-12 col-md-push-6 floatright right-sidebar iscrizione-notizie">
+          <div class="col-md-3 col-sm-12 right-sidebar iscrizione-notizie">
             <div class="box">
               <header>
-                <h2><i class="fa fa-rss"></i> Notifica notizie</h2>
+                <h2><i class="fa fa-rss-square"></i> Notifica notizie</h2>
               </header>
               <div class="box-content">
                 <p>

@@ -1,0 +1,111 @@
+/**
+ * colors
+ */
+@background: rgb(255,252,248);
+@black: rgb(51,51,51);
+@blue: rgb(0,113,187);
+@dark-blue: rgb(0,84,149);
+@light-blue: rgb(0,148,217);
+@gray: rgb(128,128,128);
+@dark-gray: rgb(90,90,90);
+@light-gray: rgb(200,200,200);
+@box-gray: #e7e8e9;
+@orange: rgb(250,171,24);
+@x-light-gray: rgb(250,250,250);
+
+/**
+ * Header
+ */
+div.aree-riservate {
+  margin-top: 1em;
+}
+i.fa-twitter {
+  color: @orange;
+}
+div.main-nav {
+  nav.navbar {
+    background-color: @orange; 
+  }
+}
+
+/**
+ * Sidebar
+ */
+div.box div.box-content.servizi-territoriali {
+  border-bottom: 1px solid @x-light-gray;
+  padding-bottom: 0;
+  ul {
+    li {
+      display: block;
+      color: @orange;
+      .fa {
+        font-size: 90%;
+      }
+      a {
+        font-weight: bolder;
+        color: @black;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+div.box div.box-content.servizi-territoriali.sub {
+  border-bottom: none;
+  padding-bottom: 15px;
+  a {
+    font-weight: normal;
+  }
+}
+div.icons {
+  ul {
+    li {
+      a {
+        color: @orange;
+      }
+    }
+  }
+}
+div#avvisi {
+  div.list-content {
+    h4 {
+      color: @orange;
+    }
+  }
+}
+
+/**
+ * Content
+ */
+div.content.secondary.notizie {
+  article {
+    h2 {
+      color: @orange
+    }
+    a {
+      color: @orange;
+    }
+  }
+}
+div.highlights {
+  h2, a {
+    color: @orange;
+  }
+}
+
+/**
+ * Footer
+ */
+div.nav-footer {
+  div.row {
+    background-color: @orange;
+  }
+  h3 {
+    border-bottom: 1px dotted @x-light-gray;
+  }
+}
+div.info-footer {
+  div.row {
+    background-color: @orange;
+    border-top: 1px solid @x-light-gray;
+  }
+}

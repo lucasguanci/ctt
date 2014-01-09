@@ -8,44 +8,77 @@
             <div class="icons">
               <ul>
                 <li><a href="#" data-toggle="tooltip" title="Linee e orari"><i class="fa fa-lg fa-clock-o"></i></a></li>
-                <li><a href="#"  data-toggle="tooltip" title="Biglietti e abbonamenti"><i class="fa fa-lg fa-ticket"></i></a></li>
-                <li><a href="tpl-notizie.php"  data-toggle="tooltip" title="Biglietterie e rivendite"><i class="fa fa-lg fa-building-o"></i></a></li>
-                <li><a href="#" data-toggle="tooltip" title="Avvisi e news"><i class="fa fa-lg fa-rss"></i></a></li>
+                <li><a href="#"  data-toggle="tooltip" title="Biglietti e abbonamenti"><i class="fa fa-lg fa-tags"></i></a></li>
+                <li><a href="tpl-notizie.php"  data-toggle="tooltip" title="Biglietterie e rivendite"><i class="fa fa-lg fa-user"></i></a></li>
+                <li><a href="#" data-toggle="tooltip" title="Avvisi e news"><i class="fa fa-lg fa-info-circle"></i></a></li>
               </ul>
             </div>
-            <div id="travel-planner" class="box">
+            <!-- servizi territoriali -->
+            <div id="servizi-territoriali" class="box">
               <header>
                 <h2>
-                  <i class="fa fa-lg fa-code-fork"></i>&nbsp;
-                  <a data-toggle="collapse" data-target="#travel-planner-cnt">Calcola percorso</a>
+                  Servizi Territoriali
                 </h2>
               </header>
-              <div class="box-content">
+              <div class="box-content servizi-territoriali">
                 <ul>
-                  <li><a href="#" class="active">Percorso</a></li>
-                  <li><a href="#">Dove sono</a></li>
+                  <li>
+                    <i class="fa fa-chevron-circle-right"></i>&nbsp;
+                    <a href="http://www.memus.net/demo/ctt/livorno">Livorno</a>
+                  </li>
+                  <li>
+                    <i class="fa fa-chevron-circle-right"></i>&nbsp;
+                    <a href="http://www.memus.net/demo/ctt/pisa">Pisa</a>
+                  </li>
+                  <li>
+                    <i class="fa fa-chevron-circle-right"></i>&nbsp;
+                    <a href="http://www.memus.net/demo/ctt/lucca">Lucca</a>
+                  </li>
                 </ul>
-                <form>
-                  <label for="partenza">Partenza</label><br> 
-                  <input class="btn btn-default" name="partenza" placeholder="piazza Duomo">
-                  <br>
-                  <label for="partenza">Destinazione</label><br>
-                  <input class="btn btn-default" name="partenza" placeholder="via Marradi 10">
-                </form>
+              </div>
+              <div class="box-content servizi-territoriali">
+                <ul>
+                  <li>
+                    <i class="fa fa-chevron-circle-right"></i>&nbsp;
+                    <a href="http://www.memus.net/demo/ctt/cap">Prato</a>
+                  </li>
+                  <li>
+                    <i class="fa fa-chevron-circle-right"></i>&nbsp;
+                    <a href="http://www.memus.net/demo/ctt/empoli">Empoli</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="box-content servizi-territoriali sub">
+                <ul>
+                  <li>
+                    <i class="fa fa-chevron-right"></i>&nbsp;
+                    <a href="http://www.memus.net/demo/ctt/pistoia">Pistoia</a>
+                  </li>
+                  <li>
+                    <i class="fa fa-chevron-right"></i>&nbsp;
+                    <a href="http://www.memus.net/demo/ctt/massa">Massa</a>
+                  </li>
+                  <li>
+                    <i class="fa fa-chevron-right"></i>&nbsp;
+                    <a href="http://www.memus.net/demo/ctt/arezzo">Arezzo</a>
+                  </li>
+                </ul>
               </div>
             </div>
+            <!-- /servizi territoriali -->
+            <!-- avvisi -->
             <div id="avvisi" class="box">
               <header>
                 <h2>
-                  <i class="fa fa-lg fa-edit"></i>&nbsp;
-                  <a data-toggle="collapse" data-target="#travel-planner-cnt">News e avvisi</a>
+                  <i class="fa fa-lg fa-info-circle"></i>&nbsp;
+                  <a data-toggle="collapse" data-target="#travel-planner-cnt">Avvisi e news</a>
               </header>
               <!-- avvisi e flash news -->
               <div class="box-content">
-                <p>filtra per <a href="#">avvisi</a> | <a href="#">flash news</a></p>
+                <p>filtra per <a href="#">avvisi</a> | <a href="#">news</a></p>
                 <!-- 1 -->
                 <div class="list-icon">
-                  <i class="fa fa-info-circle"></i>&nbsp;
+                  <i class="fa fa-warning"></i>&nbsp;
                 </div>
                 <div class="list-content">
                   <h4>12 giugno 2013</h4
@@ -54,7 +87,7 @@
                 </div>
                 <!-- 2 -->
                 <div class="list-icon">
-                  <i class="fa fa-pencil"></i>&nbsp;
+                  <i class="fa fa-edit"></i>&nbsp;
                 </div>
                 <div class="list-content">
                   <h4>6 ottobre 2013</h4>
@@ -63,5 +96,6 @@
                 </div> 
               </div>
             </div>
+            <!-- /avvisi -->
           </div>
           <!-- /sidebar -->
