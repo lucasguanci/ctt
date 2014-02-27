@@ -19,10 +19,10 @@
               </header>
               <div class="box-content secondary-nav">
                 <ul>
-                  <li><a href="tpl-notizie.php" class="active">Avvisi e News</a></li>
+                  <li><a href="tpl-notizie.php">Avvisi e News</a></li>
                   <li><a href="tpl-notizie-approfondimenti.php">In evidenza</a></li>
                   <li><a href="#">Convenzioni</a></li>
-                  <li><a href="tpl-cs.php">Comunicati stampa</a></li>
+                  <li><a href="tpl-cs.php" class="active">Comunicati stampa</a></li>
                 </ul>
               </div>
             </div>

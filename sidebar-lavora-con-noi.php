@@ -71,17 +71,16 @@
               <header>
                 <h2>
                   <i class="fa fa-lg fa-info-circle"></i>&nbsp;
-                  <a data-toggle="collapse" data-target="#travel-planner-cnt">Avvisi e news</a>
+                  <a data-toggle="collapse" data-target="#avvisi-cnt">News e avvisi</a>
+                </h2>
               </header>
               <!-- avvisi e flash news -->
-              <div class="box-content">
-                <div class="filtro territori">
+              <div id="avvisi-cnt" class="box-content collapse">
+                <p>
                   filtra per territori<br/> 
                   <a href="#">LI</a> | <a href="#">LU</a> | <a href="#">PI</a> | <a href="#">PO</a> | <a href="#">EM</a>
-                </div>
-                <div class="filtro tipologia">
-                  filtra per <a href="#">avvisi</a> | <a href="#">news</a>
-                </div>
+                </p>
+                <p>filtra per <a href="#">avvisi</a> | <a href="#">news</a></p>
                 <!-- 1 -->
                 <div class="list-icon">
                   <i class="fa fa-warning"></i>&nbsp;

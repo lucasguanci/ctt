@@ -4,28 +4,22 @@
 */
 ?>
           <!-- main-content -->
-          <div class="col-md-6 col-sm-12 content secondary notizie">
-            <section class="notizie index">
+          <div class="col-md-6 col-sm-12 content secondary notizie cs">
+            <section class="cs index">
               <header>
-                <h2>Avvisi e News</h2>
+                <h2>Comunicati stampa</h2>
                 <ul>
                   <li class="condividi">condividi</li>
                   <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
                   <li class="sep">|</li>
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                 </ul>
-                <p class="filter">
-                  filtra per <a href="#">Avvisi</a> | <a href="#">News</a>
-                </p>
               </header>
               <article class="index first">
-                <div class="avvisi-news-icon">
-                  <i class="fa fa-edit"></i>
-                </div>
-                <div class="avvisi-news-item">
+                <div class="cs">
                   <h4>20 settembre 2013</h4>
                   <h2>
-                    Nuove tariffe del trasporto pubblico
+                    <a href="tpl-cs-dettaglio.php">Nuove tariffe del trasporto pubblico</a>
                   </h2>
                   <p>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -33,13 +27,10 @@
                 </div>
               </article>
               <article class="index">
-                <div class="avvisi-news-icon">
-                  <i class="fa fa-warning"></i>
-                </div>
-                <div class="avvisi-news-item">
+                <div class="cs">
                   <h4>13 settembre 2013</h4>
                   <h2>
-                    Modifica percorso LAM rossa
+                    <a href="tpl-cs-dettaglio.php">Modifica percorso LAM rossa</a>
                   </h2>
                   <p>
                      At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

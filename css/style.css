@@ -110,7 +110,7 @@ h6 {
  */
 body {
   font-family: 'Lato', Arial, sans-serif;
-  background-color: #fffcf8;
+  background-color: white;
   line-height: 1.25em;
 }
 /**
@@ -131,6 +131,12 @@ body {
 .navbar-nav > li > a {
   padding-top: 1em;
   padding-bottom: 1em;
+}
+.navbar-nav > li > a:hover {
+  color: #5a5a5a;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #808080;
 }
 /*
 @media screen and (max-width: 768px) {
@@ -154,6 +160,12 @@ div.search a,
 div.aree-riservate a {
   padding-right: 6px;
   padding-left: 6px;
+  text-decoration: none;
+}
+div.search a:hover,
+div.aree-riservate a:hover {
+  text-decoration: underline;
+  color: #5a5a5a;
 }
 div.aree-riservate ul {
   margin-right: 15px;
@@ -316,6 +328,12 @@ div.box div.box-content form input {
   padding: 0.25em 6px;
   margin-bottom: 0.25em;
 }
+div.box div.box-content div.filtro {
+  margin-bottom: 1em;
+}
+div.box div.box-content div.filtro a {
+  color: #0071bb;
+}
 div#travel-planner ul {
   font-size: 90%;
 }
@@ -347,12 +365,12 @@ div#avvisi div.list-content h3 {
   font-size: 90%;
   text-transform: uppercase;
   font-weight: bolder;
+  color: #005495;
 }
 div#avvisi div.list-content h4 {
   margin: 0;
   margin-bottom: 0.25em;
   font-size: 85%;
-  color: #005495;
 }
 div#secondary-nav ul {
   list-style-type: none;
@@ -404,6 +422,10 @@ div.content figure figcaption {
 div.content.secondary {
   min-height: 40em;
 }
+div.content.secondary .condividi {
+  color: #808080;
+  font-size: 85%;
+}
 div.content.secondary .fa {
   color: #5a5a5a;
 }
@@ -420,8 +442,12 @@ div.content.secondary header h2 {
   font-weight: bolder;
   text-transform: uppercase;
   float: left;
+  width: 70%;
 }
 div.content.secondary header ul {
+  margin-left: 72%;
+  width: 28%;
+  padding-left: 0;
   text-align: right;
   list-style-type: none;
 }
@@ -431,19 +457,130 @@ div.content.secondary header ul li {
 div.content.secondary header ul li a {
   color: #5a5a5a;
 }
+div.content.secondary header ul li.condividi {
+  padding-right: 6px;
+}
 div.content.secondary section.cnt {
   clear: both;
+}
+div.content.secondary section.cnt img {
+  max-width: 100%;
+  margin: 1em 0;
+}
+div.content.secondary section.cnt .sottotitolo {
+  font-size: 120%;
+  font-weight: bolder;
+}
+div.content.secondary section.cnt .sottotitolo-colorato {
+  font-size: 120%;
+  font-weight: bolder;
+  color: #005495;
+}
+div.content.secondary section.cnt .small {
+  font-size: 85%;
+  font-weight: normal;
+}
+div.content.secondary section.cnt .normal {
+  font-size: 100%;
+  font-weight: normal;
+  color: #333333;
+}
+div.content.secondary section.cnt div.area-riservata {
+  font-size: 90%;
+}
+div.content.secondary section.cnt div.area-riservata label {
+  margin-bottom: 0;
+}
+div.content.secondary section.cnt div.area-riservata input {
+  text-align: left;
+  padding: 0.5em 6px;
+  margin-bottom: 0.5em;
+}
+div.content.secondary section.cnt div.area-riservata input[type=submit] {
+  width: 15%;
+  text-align: center;
+}
+div.content.secondary section.cnt.linee div.linee-filtro {
+  background-color: #e7e8e9;
+  padding: 1em 15px;
+  margin-bottom: 1em;
+}
+div.content.secondary section.cnt.linee div.linee-filtro div.filtro-left {
+  float: left;
+  width: 45%;
+}
+div.content.secondary section.cnt.linee div.linee-filtro div.filtro-right {
+  margin-left: 55%;
+  width: 45%;
+}
+div.content.secondary section.cnt.linee div.linee-filtro label {
+  font-size: 95%;
+  margin-bottom: 0;
+}
+div.content.secondary section.cnt.linee div.linee-filtro input {
+  text-align: left;
+  font-size: 90%;
+  padding: .25em 8px;
+  width: 100%;
+}
+div.content.secondary section.cnt.linee div.linee-filtro input[type=submit] {
+  margin-top: 1em;
+  width: 22%;
+  text-align: center;
+}
+div.content.secondary section.cnt.linee div.linee-filtro div.hint {
+  font-size: 85%;
+}
+div.content.secondary section.cnt.linee div.linee-index table {
+  padding: 0 4px;
+  font-size: 90%;
+}
+div.content.secondary section.cnt.linee div.linee-index table a {
+  color: #333333;
+}
+div.content.secondary section.cnt.linee div.linee-index table td {
+  padding: 0 4px;
+}
+div.content.secondary section.cnt.linee div.linee-index thead {
+  font-weight: bolder;
+  text-align: center;
+}
+div.content.secondary section.cnt.linee div.linee-index thead td.icona,
+div.content.secondary section.cnt.linee div.linee-index thead td.percorso {
+  text-align: left;
+}
+div.content.secondary section.cnt.linee div.linee-index tbody {
+  text-align: center;
+}
+div.content.secondary section.cnt.linee div.linee-index tbody td {
+  vertical-align: middle;
+}
+div.content.secondary section.cnt.linee div.linee-index tbody td.icona,
+div.content.secondary section.cnt.linee div.linee-index tbody td.percorso {
+  text-align: left;
 }
 div.content.secondary section.footer {
   margin-top: 1em;
   color: #5a5a5a;
+  font-size: 85%;
 }
 /* notizie */
 div.content.secondary.notizie p.filter {
   margin-bottom: 20px;
 }
 div.content.secondary.notizie article {
+  clear: both;
   margin-top: 2em;
+}
+div.content.secondary.notizie article div.avvisi-news-icon {
+  float: left;
+  width: 1.5em;
+}
+div.content.secondary.notizie article div.avvisi-news-icon .fa {
+  color: #333333;
+}
+div.content.secondary.notizie article div.avvisi-news-item {
+  margin-left: 2em;
 }
 div.content.secondary.notizie article h4 {
   font-size: 92.85%;
@@ -462,12 +599,12 @@ div.content.secondary.notizie article.first {
   margin-top: 0;
 }
 div.content.secondary.notizie.approfondimenti img {
-  max-width: 33%;
-  margin-right: 1em;
+  width: 33%;
   float: left;
 }
 div.content.secondary.notizie.approfondimenti p {
   text-align: left;
+  margin-left: 35%;
 }
 div.content.secondary.notizie.approfondimenti.dettaglio img {
   float: none;
@@ -500,6 +637,17 @@ div.right-sidebar div.box div.box-content ul li {
   display: block;
 }
 /* allegati */
+div.right-sidebar.allegati div.allegati-wrapper {
+  clear: both;
+  margin-bottom: 0.5em;
+}
+div.right-sidebar.allegati div.allegati-icon {
+  float: left;
+  width: 7%;
+}
+div.right-sidebar.allegati div.allegati-item {
+  margin-left: 10%;
+}
 /* iscrizione-notizie */
 div.iscrizione-notizie header p {
   margin: 0;
@@ -555,12 +703,14 @@ div.nav-footer ul li a {
 div.nav-footer ul li a:hover {
   text-decoration: underline;
 }
-div.info-footer {
+div.info-footer,
+div.territori-footer {
   /*background-color: @dark-blue;*/
 
   color: white;
 }
-div.info-footer div.row {
+div.info-footer div.row,
+div.territori-footer div.row {
   background-color: #005495;
   border-top: 1px solid #c8c8c8;
   padding-top: 2em;
@@ -569,7 +719,76 @@ div.info-footer div.row {
 
   margin-top: 0;
 }
-div.info-footer p {
+div.info-footer p,
+div.territori-footer p {
   font-size: 90%;
   line-height: 1.5em;
+}
+div.territori-footer div.row {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+div.territori-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+div.territori-footer ul li {
+  display: inline;
+}
+div.territori-footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+div.territori-footer ul li a:hover {
+  text-decoration: underline;
+}
+div.territori-footer ul li:after {
+  content: "\00a0\00a0|\00a0\00a0";
+}
+div.territori-footer ul li:last-child:after {
+  content: "";
+}
+div.territori-footer ul.major li a {
+  font-weight: bolder;
+}
+div.territori-footer ul.minor {
+  padding-top: 0.5em;
+}
+div.territori-footer ul.minor li a {
+  font-size: 90%;
+}
+/**
+ * Carousel
+**/
+.carousel-control {
+  display: none;
+}
+.carousel-inner img {
+  width: 100%;
+}
+.carousel-inner div.carousel-caption {
+  text-align: left;
+  margin-left: -5%;
+}
+.carousel-inner div.carousel-caption h3 {
+  font-size: 200%;
+  font-family: 'LatoBold', Arial, sans-serif;
+  margin-bottom: 0;
+}
+.carousel-inner div.carousel-caption p {
+  font-size: 125%;
+  font-family: 'LatoRegular', Arial, sans-serif;
+}
+div#banner ol.carousel-indicators {
+  bottom: 2%;
+}
+div#banner div.carousel-caption {
+  font-size: 100%;
+  font-family: 'LatoRegular', Arial, sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  left: 4%;
+  bottom: 12%;
 }

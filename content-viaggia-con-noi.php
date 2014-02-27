@@ -9,16 +9,17 @@
               <header>
                 <h2>Linee urbane</h2>
                 <ul>
-                  <li><i class="fa fa-print"></i>&nbsp;<a href="#">stampa</a></li>
+                  <li class="condividi">condividi</li>
+                  <li><a href="#" data-toggle="tooltip" title="email"><i class="fa fa-envelope-o"></i></a></li>
                   <li class="sep">|</li>
-                  <li><i class="fa fa-envelope-o"></i>&nbsp;<a href="#">invia a un amico</a></li>
+                  <li><a href="#" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                 </ul>
               </header>
               <section class="cnt">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadips   cing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
               </section>
               <section class="footer">
-                articolo aggiornato il 27.06.2013
+                aggiornato il 27.06.2013
               </section>
             </article>
           </div>
@@ -30,11 +31,24 @@
                 <h2>Documenti allegati</h2>
               </header>
               <div class="box-content">
-                <ul>
-                  <li><a href="#">Urbano Prato</a></li>
-                  <li><a href="#">Linea V</a></li>
-                  <li><a href="#">Linea F</a></li>
-                </ul>
+                <!-- allegato -->
+                <div class="allegati-wrapper">
+                  <div class="allegati-icon">
+                    <i class="fa fa-file"></i>
+                  </div>
+                  <div class="allegati-item">
+                    <a href="#">Documento base per il territorio</a>
+                  </div>
+                </div>
+                <!-- allegato -->
+                <div class="allegati-wrapper">
+                  <div class="allegati-icon">
+                    <i class="fa fa-file"></i>
+                  </div>
+                  <div class="allegati-item">
+                    <a href="#">Documento base per il territorio</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

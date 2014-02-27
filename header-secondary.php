@@ -30,9 +30,9 @@
               <nav class="navbar navbar-default" role="navigation">
                 <ul class="nav navbar-nav">
                   <li><a href="#">Area personale</a></li>
-                  <li><a href="#">Area istituzioni</a></li>
+                  <li><a href="tpl-area-istituzioni.php">Area istituzioni</a></li>
                   <li><a href="#">Area fornitori</a></li>
-                  <li><a href="#">Lavora con noi</a></li>
+                  <li><a href="tpl-lavora-con-noi.php">Lavora con noi</a></li>
                   <li><a href="#" data-toggle="tooltip" title="Twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
                 </ul>
               </nav>

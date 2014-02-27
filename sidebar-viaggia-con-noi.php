@@ -36,27 +36,6 @@
                 </ul>
               </div>
             </div>
-            <div id="travel-planner" class="box">
-              <header>
-                <h2>
-                  <i class="fa fa-lg fa-cogs"></i>&nbsp;
-                  <a data-toggle="collapse" data-target="#travel-planner-cnt">Calcola percorso</a>
-                </h2>
-              </header>
-              <div id="travel-planner-cnt" class="box-content collapse">
-                <ul>
-                  <li><a href="#" class="active">Percorso</a></li>
-                  <li><a href="#">Dove sono</a></li>
-                </ul>
-                <form>
-                  <label for="partenza">Partenza</label><br> 
-                  <input class="btn btn-default" name="partenza" placeholder="piazza Duomo">
-                  <br>
-                  <label for="partenza">Destinazione</label><br>
-                  <input class="btn btn-default" name="partenza" placeholder="via Marradi 10">
-                </form>
-              </div>
-            </div>
             <div id="avvisi" class="box">
               <header>
                 <h2>
@@ -65,14 +44,18 @@
                 </h2>
               </header>
               <!-- avvisi e flash news -->
-              <div class="box-content">
+              <div id="avvisi-cnt" class="box-content collapse">
+                <p>
+                  filtra per territori<br/> 
+                  <a href="#">LI</a> | <a href="#">LU</a> | <a href="#">PI</a> | <a href="#">PO</a> | <a href="#">EM</a>
+                </p>
                 <p>filtra per <a href="#">avvisi</a> | <a href="#">news</a></p>
                 <!-- 1 -->
                 <div class="list-icon">
                   <i class="fa fa-warning"></i>&nbsp;
                 </div>
                 <div class="list-content">
-                  <h4>12 giugno 2013</h4
+                  <h4>12 giugno 2013</h4>
                   <h3>MODIFICA PERCORSO 9</h3>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr...</p> 
                 </div>
@@ -87,5 +70,6 @@
                 </div> 
               </div>
             </div>
+            <!-- /avvisi -->
           </div>
           <!-- /sidebar -->

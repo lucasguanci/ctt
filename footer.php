@@ -48,12 +48,35 @@
                 <li><a href="#">Flash news</a></li>
                 <li><a href="#">Twitter</a></li>
                 <li><a href="#">Newsletter</a></li>
-                <li><a href="#">Comunicati stampa</a></li>
+                <li><a href="tpl-cs.php">Comunicati stampa</a></li>
                 <li><a href="#">Archivio</a></li>
               </ul>
             </div>
           </div>
         </div>      
+      </div>
+      <div class="territori-footer">
+        <div class="container footer">
+          <div class="row">
+            <div class="col-md-12 territori footer-first footer-last">
+              <ul class="major">
+                <li><a href="http://www.memus.net/demo/ctt/ctt">CTT nord</a></li>
+                <li><a href="http://www.memus.net/demo/ctt/livorno">Livorno</a></li>
+                <li><a href="http://www.memus.net/demo/ctt/pisa">Pisa</a></li>
+                <li><a href="http://www.memus.net/demo/ctt/lucca">Lucca</a></li>
+                <li><a href="http://www.memus.net/demo/ctt/cap">Prato</a></li>
+                <li><a href="http://www.memus.net/demo/ctt/empoli">Empoli</a></li>
+              </ul>
+              <ul class="minor">
+                <li><a href="#">consorzio VaiBus</a></li>
+                <li><a href="#">consorzio Pi&ugrave;Bus</a></li>
+                <li><a href="#">consorzio CPT</a></li>
+                <li><a href="#">consorzio CAP</a></li>
+                <li><a href="#">Trasporti Toscani</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="info-footer">
         <div class="container footer">

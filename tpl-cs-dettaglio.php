@@ -30,10 +30,10 @@
       <div class="container">
         <div class="row">
           <!-- sidebar -->
-          <?php include('sidebar-notizie-index.php'); ?>
+          <?php include('sidebar-cs.php'); ?>
           <div class="clearfix visible-sm visible-xs"></div>
           <!-- content -->
-          <?php include('content-notizie-index.php'); ?>
+          <?php include('content-cs-dettaglio.php'); ?>
           <div class="clearfix visible-sm visible-xs"></div>
         </div>
       </div>

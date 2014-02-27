@@ -9,9 +9,10 @@
               <header>
                 <h2>Approfondimenti</h2>
                 <ul>
-                  <li><i class="fa fa-print"></i>&nbsp;<a href="#">stampa</a></li>
+                  <li class="condividi">condividi</li>
+                  <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
                   <li class="sep">|</li>
-                  <li><i class="fa fa-envelope-o"></i>&nbsp;<a href="#">invia a un amico</a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                 </ul>
               </header>
               <article class="index first">

@@ -22,29 +22,8 @@
                   <li><a href="tpl-notizie.php">Avvisi e News</a></li>
                   <li><a href="tpl-notizie-approfondimenti.php">In evidenza</a></li>
                   <li><a href="#">Convenzioni</a></li>
-                  <li><a href="#">Comunicati stampa</a></li>
+                  <li><a href="tpl-cs.php">Comunicati stampa</a></li>
                 </ul>
-              </div>
-            </div>
-            <div id="travel-planner" class="box">
-              <header>
-                <h2>
-                  <i class="fa fa-lg fa-cogs"></i>&nbsp;
-                  <a data-toggle="collapse" data-target="#travel-planner-cnt">Calcola percorso</a>
-                </h2>
-              </header>
-              <div id="travel-planner-cnt" class="box-content collapse">
-                <ul>
-                  <li><a href="#" class="active">Percorso</a></li>
-                  <li><a href="#">Dove sono</a></li>
-                </ul>
-                <form>
-                  <label for="partenza">Partenza</label><br> 
-                  <input class="btn btn-default" name="partenza" placeholder="piazza Duomo">
-                  <br>
-                  <label for="partenza">Destinazione</label><br>
-                  <input class="btn btn-default" name="partenza" placeholder="via Marradi 10">
-                </form>
               </div>
             </div>
           </div>

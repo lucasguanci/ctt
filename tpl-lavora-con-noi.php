@@ -11,8 +11,9 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- CTT stylesheets -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style-ctt.css" rel="stylesheet">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <link href="http://ctt-cap.local/css/style.css" rel="stylesheet">
+    <link href="css/style-ctt.css" rel="stylesheet">  
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font.css" />    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,10 +31,10 @@
       <div class="container">
         <div class="row">
           <!-- sidebar -->
-          <?php include('sidebar-notizie-index.php'); ?>
+          <?php include('sidebar-lavora-con-noi.php'); ?>
           <div class="clearfix visible-sm visible-xs"></div>
           <!-- content -->
-          <?php include('content-notizie-index.php'); ?>
+          <?php include('content-lavora-con-noi.php'); ?>
           <div class="clearfix visible-sm visible-xs"></div>
         </div>
       </div>

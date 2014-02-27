@@ -17,8 +17,8 @@
  * Header
  */
 div.aree-riservate {
-  margin-top: 1em;
-}
+/*  margin-top: 1em;
+*/}
 i.fa-twitter {
   color: @orange;
 }
@@ -31,6 +31,11 @@ div.main-nav {
 /**
  * Sidebar
  */
+div.box div.box-content div.filtro {
+  a {
+    color: @orange;
+  }
+}
 div.box div.box-content.servizi-territoriali {
   border-bottom: 1px solid @x-light-gray;
   padding-bottom: 0;
@@ -67,7 +72,7 @@ div.icons {
 }
 div#avvisi {
   div.list-content {
-    h4 {
+    h3 {
       color: @orange;
     }
   }
@@ -76,18 +81,52 @@ div#avvisi {
 /**
  * Content
  */
-div.content.secondary.notizie {
-  article {
-    h2 {
-      color: @orange
+div.content.secondary {
+  .fa {
+    color: @orange;    
+  }
+  section.cnt {
+    .sottotitolo-colorato {
+      color: @orange;
     }
+  }
+} 
+div.content.secondary.notizie {
+  header {
     a {
       color: @orange;
+    }    
+  }
+  article {
+    h2,a {
+      color: @orange
     }
   }
 }
 div.highlights {
   h2, a {
+    color: @orange;
+  }
+}
+div.content.secondary.bandi-gare {
+  h3 {
+    color: @orange;
+  }
+  section.bando-wrapper {
+    border-bottom-color: @orange;
+  }
+}
+/* lavora con noi */
+div.content.secondary.bandi-gare,
+div.content.secondary.lavora-con-noi {
+  table {
+    a {
+      color: @black;
+    }
+  }
+}
+div.content.secondary.lavora-con-noi {
+  h3.panel-title {
     color: @orange;
   }
 }
@@ -103,7 +142,8 @@ div.nav-footer {
     border-bottom: 1px dotted @x-light-gray;
   }
 }
-div.info-footer {
+div.info-footer,
+div.territori-footer {
   div.row {
     background-color: @orange;
     border-top: 1px solid @x-light-gray;

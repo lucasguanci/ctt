@@ -66,42 +66,5 @@
               </div>
             </div>
             <!-- /servizi territoriali -->
-            <!-- avvisi -->
-            <div id="avvisi" class="box">
-              <header>
-                <h2>
-                  <i class="fa fa-lg fa-info-circle"></i>&nbsp;
-                  <a data-toggle="collapse" data-target="#travel-planner-cnt">Avvisi e news</a>
-              </header>
-              <!-- avvisi e flash news -->
-              <div class="box-content">
-                <div class="filtro territori">
-                  filtra per territori<br/> 
-                  <a href="#">LI</a> | <a href="#">LU</a> | <a href="#">PI</a> | <a href="#">PO</a> | <a href="#">EM</a>
-                </div>
-                <div class="filtro tipologia">
-                  filtra per <a href="#">avvisi</a> | <a href="#">news</a>
-                </div>
-                <!-- 1 -->
-                <div class="list-icon">
-                  <i class="fa fa-warning"></i>&nbsp;
-                </div>
-                <div class="list-content">
-                  <h4>12 giugno 2013</h4>
-                  <h3>MODIFICA PERCORSO 9</h3>
-                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr...</p> 
-                </div>
-                <!-- 2 -->
-                <div class="list-icon">
-                  <i class="fa fa-edit"></i>&nbsp;
-                </div>
-                <div class="list-content">
-                  <h4>6 ottobre 2013</h4>
-                  <h3>navetta gratuita</h3>
-                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr...</p> 
-                </div> 
-              </div>
-            </div>
-            <!-- /avvisi -->
           </div>
           <!-- /sidebar -->
