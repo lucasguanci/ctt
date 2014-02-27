@@ -9,6 +9,9 @@ curl http://ctt-ctt.local/tpl-cs.php > out/tpl-cs.php
 curl http://ctt-ctt.local/tpl-cs-dettaglio.php > out/tpl-cs-dettaglio.php
 curl http://ctt-ctt.local/tpl-area-istituzioni.php > out/tpl-area-istituzioni.php
 curl http://ctt-ctt.local/tpl-bandi-gare.php > out/tpl-bandi-gare.php
+curl http://ctt-ctt.local/tpl-lavora-con-noi.php > out/tpl-lavora-con-noi.php
+curl http://ctt-ctt.local/tpl-lavora-con-noi-selezioni-in-corso-iscriviti.php > out/tpl-lavora-con-noi-selezioni-in-corso-iscriviti.php
+
 cp -r css out/
 cp ../CAP/css/style.css out/css
 cp -r fonts out/

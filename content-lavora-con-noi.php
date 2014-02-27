@@ -86,6 +86,14 @@
                             Ho letto e accetto i termini e le condizioni..
                           </p>
                           <input type="submit" class="btn btn-primary" value="Invia">
+                          <p class="comment">
+                            una volta inviato il form viene visualizzata una schermata modal (da sviluppare in seguito) in cui viene detto che riceverà una emaildi conferma iscrizione.
+                            l'utente riceve una email di conferma iscrizione con riepilogo dati.
+                            l'utente è presente in archivio.
+                            l'utente riceverà notifica via email al momento della scadenza del tempo di permanenza in archivio della candidatura
+                            l'utente riceverà notifica via email di eventuali selezioni per la sua categoria
+                          </p>
+
                         </div>
                       </div>
                     </div>
@@ -105,7 +113,7 @@
                             <div id="table-selezioni-attive" class="table-responsive">
                               <table class="table table-hover">
                                 <tbody>
-                                  <!-- header iscrizioni -->
+                                  <!-- header selezioni attive -->
                                   <tr class="header-iscrizioni">
                                     <td>ID</td>
                                     <td>Oggetto</td>
@@ -114,11 +122,12 @@
                                     <td>Documenti</td>
                                     <td>Iscriviti</td>
                                   </tr>
-                                  <!-- iscrizioni generale -->
+                                  <!-- /header selezioni attive -->
+                                  <!-- selezione 1 -->
                                   <tr>
                                     <td>152</td>
                                     <td>
-                                      <a href="tpl-lavora-con-noi-attive-form.php">
+                                      <a href="tpl-lavora-con-noi-selezioni-in-corso-iscriviti.php">
                                         Selezione per n. 1 autista
                                       </a>
                                     </td>
@@ -133,11 +142,12 @@
                                       </div>
                                     </td>
                                     <td class="iscriviti">
-                                      <a href="tpl-lavora-con-noi-attive-form.php">
+                                      <a href="tpl-lavora-con-noi-selezioni-in-corso-iscriviti.php">
                                         <i class="fa fa-sign-in"></i>
                                       </a>
                                     </td>
                                   </tr>
+                                  <!-- /selezione 1 -->
                                 </tbody>
                               </table>
                             </div>

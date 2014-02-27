@@ -11,8 +11,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- CTT stylesheets -->
-    <!-- <link href="css/style.css" rel="stylesheet"> -->
-    <link href="http://ctt-cap.local/css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="http://ctt-cap.local/css/style.css" rel="stylesheet"> -->
     <link href="css/style-ctt.css" rel="stylesheet">  
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font.css" />    
