@@ -69,8 +69,17 @@ div.highlights h2,
 div.highlights a {
   color: #faab18;
 }
-div.content.secondary.bandi-gare h3 {
+div.content.secondary.bandi-gare h2 {
   color: #faab18;
+}
+div.content.secondary.bandi-gare h3 {
+  color: #5a5a5a;
+  margin-bottom: 1em;
+}
+div.content.secondary.bandi-gare h3::before {
+  content: '• ';
+  color: #faab18;
+  padding-right: 6px;
 }
 div.content.secondary.bandi-gare section.bando-wrapper {
   border-bottom-color: #faab18;
@@ -82,6 +91,70 @@ div.content.secondary.lavora-con-noi table a {
 }
 div.content.secondary.lavora-con-noi h3.panel-title {
   color: #faab18;
+}
+/* form iscrizione newsletter */
+div.content.secondary.form-contatti div.form input[type=submit] {
+  background-color: #faab18;
+  border-color: #faab18;
+}
+/* pager */
+.pager li > a {
+  border-radius: 0;
+}
+/* risultati ricerca */
+section.notizie.index.ricerca div.pager .pagination > .active > a {
+  background-color: #faab18;
+  border-color: #faab18;
+}
+/**
+ * Form operatori esercizio
+**/
+div.content.secondary.form-contatti div.form select {
+  width: 30%;
+}
+div.form-operatori-esercizio label.dichiarazione {
+  font-weight: normal;
+}
+div.form-operatori-esercizio h2 {
+  font-size: 120%;
+  background-color: #faab18;
+  margin: 2em 0 1em 0;
+  padding: 0.25em 6px;
+  width: 75%;
+  color: white;
+}
+div.form-operatori-esercizio fieldset.dichiarazione {
+  margin-bottom: 1em;
+}
+div.form-operatori-esercizio fieldset.dichiarazione legend {
+  font-size: 100%;
+  font-weight: normal;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+div.form-operatori-esercizio fieldset.dichiarazione label,
+div.form-operatori-esercizio fieldset.dichiarazione input[type="radio"].form-control {
+  margin: 0;
+  display: inline;
+}
+div.form-operatori-esercizio fieldset.dichiarazione input[type="radio"].form-control {
+  margin-right: 3px;
+}
+div.form-operatori-esercizio fieldset.dichiarazione label {
+  padding-left: 0;
+  margin-right: 15px;
+}
+div.form-operatori-esercizio textarea {
+  width: 100%;
+}
+div.content.secondary.form-contatti div.form textarea {
+  width: 100%;
+}
+div.content.secondary.form-contatti div.form select {
+  margin-bottom: 1em;
+}
+div.content.secondary.form-contatti div.form select.si-no {
+  width: 10%;
 }
 /**
  * Footer
@@ -96,4 +169,17 @@ div.info-footer div.row,
 div.territori-footer div.row {
   background-color: #faab18;
   border-top: 1px solid #fafafa;
+}
+div.footer a {
+  color: white;
+}
+div.footer div.logo-wrapper img {
+  max-height: 60px;
+}
+/**
+ * Pager
+ */
+div.RadDataPager.RadDataPager_MetroTouch .RadDataPager_MetroTouch .rdpNumPart a.rdpCurrentPage,
+div.RadDataPager.RadDataPager_MetroTouch .RadDataPager_MetroTouch .rdpNumPart a.rdpCurrentPage:hover {
+  background-color: #faab18;
 }

@@ -72,6 +72,19 @@
   background-color: black;
   color: white;
 }
+.table table {
+  padding: 0 4px;
+  font-size: 90%;
+}
+.table table a {
+  color: #333333;
+}
+.table table td {
+  padding: 0 4px;
+}
+.table thead {
+  font-weight: bolder;
+}
 /**
  * make possible to exchange columns order on mobile devices, i.e.
  * <div class="col-md-9 floatright">right col on medium sizes</div>
@@ -104,6 +117,9 @@ h5,
 h6 {
   font-family: 'Lato', Arial, sans-serif;
   font-weight: bold;
+}
+.red {
+  color: #be0000;
 }
 /**
  * Body 
@@ -152,6 +168,18 @@ body {
 div.header-left {
   margin: 1em 0;
 }
+div.header-left img#logo {
+  max-width: 100%;
+}
+div.form-group {
+  text-align: right;
+}
+div.navbar-form button[type="submit"] {
+  color: #808080;
+}
+div.navbar-form button[type="submit"]:hover {
+  color: #5a5a5a;
+}
 div.search,
 div.aree-riservate {
   float: right;
@@ -179,6 +207,9 @@ button.search {
   border: solid 1px #c8c8c8;
   color: #808080;
 }
+input.search {
+  width: 80%;
+}
 div.top-menu ul.navbar-nav {
   float: right;
   text-align: right;
@@ -193,10 +224,16 @@ div.top-menu ul.navbar-nav li a {
   padding: 0;
   color: #5a5a5a;
 }
-i.fa-twitter {
+i.fa-twitter,
+i.fa-facebook,
+i.fa-facebook-square,
+i.fa-youtube-play {
   color: #005495;
 }
-i.fa-twitter:hover {
+i.fa-twitter:hover,
+i.fa-facebook:hover,
+i.fa-facebook-square:hover,
+i.fa-youtube-play:hover {
   color: #333333;
 }
 ul.navbar-nav .tooltip {
@@ -232,10 +269,25 @@ div.main-nav ul.navbar-nav {
   font-weight: bolder;
 }
 @media screen and (max-width: 991px) {
-  div.header-right {
+  div.search {
     display: none;
   }
-  div.main-nav ul.navbar-nav {
+  div.aree-riservate {
+    margin-left: 15px;
+    margin-bottom: 1em;
+    float: left;
+  }
+  div.aree-riservate .nav li {
+    display: inline;
+  }
+  div.aree-riservate a {
+    display: inline;
+    padding: 0 6px 0 0;
+  }
+  /*  div.header-right {
+      display: none;
+    }
+  */div.main-nav ul.navbar-nav {
     float: none;
     text-align: left;
   }
@@ -247,6 +299,18 @@ div.main-nav ul.navbar-nav {
   div.main-nav ul.navbar-nav {
     float: right;
     text-align: right;
+  }
+}
+@media screen and (max-width: 768px) {
+  div.banner {
+    display: none;
+  }
+  div.main-nav nav.navbar a {
+    width: 100%;
+  }
+  .navbar-default .navbar-toggle {
+    margin-top: 15px;
+    margin-left: 15px;
   }
 }
 /**
@@ -328,11 +392,17 @@ div.box div.box-content form input {
   padding: 0.25em 6px;
   margin-bottom: 0.25em;
 }
+div.box div.box-content form input[type="submit"] {
+  margin-top: 0.5em;
+}
 div.box div.box-content div.filtro {
   margin-bottom: 1em;
 }
 div.box div.box-content div.filtro a {
   color: #0071bb;
+}
+input#TravelPlannerContent_btnRoute {
+  margin-top: 0.5em;
 }
 div#travel-planner ul {
   font-size: 90%;
@@ -427,7 +497,7 @@ div.content.secondary .condividi {
   font-size: 85%;
 }
 div.content.secondary .fa {
-  color: #5a5a5a;
+  color: #005495;
 }
 div.content.secondary .sep {
   padding: 0 4px;
@@ -487,6 +557,7 @@ div.content.secondary section.cnt .normal {
 }
 div.content.secondary section.cnt div.area-riservata {
   font-size: 90%;
+  margin-top: 1em;
 }
 div.content.secondary section.cnt div.area-riservata label {
   margin-bottom: 0;
@@ -496,9 +567,59 @@ div.content.secondary section.cnt div.area-riservata input {
   padding: 0.5em 6px;
   margin-bottom: 0.5em;
 }
-div.content.secondary section.cnt div.area-riservata input[type=submit] {
+div.content.secondary section.cnt div.area-riservata input[type=button] {
+  margin-top: 0.5em;
   width: 15%;
   text-align: center;
+}
+div.content.secondary section.cnt div.area-riservata div.recupero,
+div.content.secondary section.cnt div.area-riservata div.profilazione {
+  background-color: #e7e8e9;
+  padding: 1em 15px;
+  margin: 1em 0;
+}
+div.content.secondary section.cnt div.area-riservata div.recupero a,
+div.content.secondary section.cnt div.area-riservata div.profilazione a {
+  color: #333333;
+}
+div.content.secondary section.cnt div.area-riservata div.recupero div.second,
+div.content.secondary section.cnt div.area-riservata div.profilazione div.second {
+  margin-top: 1em;
+}
+div.content.secondary section.cnt div.area-riservata div.recupero label,
+div.content.secondary section.cnt div.area-riservata div.profilazione label {
+  margin-bottom: 0;
+}
+div.content.secondary section.cnt div.area-riservata div.recupero input,
+div.content.secondary section.cnt div.area-riservata div.profilazione input {
+  text-align: left;
+  padding: .25em 8px;
+  margin: 0.25em 0;
+  width: 60%;
+}
+div.content.secondary section.cnt div.area-riservata div.recupero input[type=button],
+div.content.secondary section.cnt div.area-riservata div.profilazione input[type=button] {
+  width: 40%;
+  text-align: center;
+}
+div.content.secondary section.cnt div.area-riservata div.recupero p.hint,
+div.content.secondary section.cnt div.area-riservata div.profilazione p.hint {
+  margin-bottom: 0;
+}
+div.content.secondary section.cnt div.area-riservata div.profilazione label {
+  margin-top: 0.5em;
+}
+div.content.secondary section.cnt div.area-riservata div.profilazione label.first {
+  margin-top: 0;
+}
+div.content.secondary section.cnt div.area-riservata div.profilazione input[type=submit] {
+  margin-top: 1em;
+}
+div.content.secondary section.cnt p.comment {
+  font-style: italic;
+}
+div.content.secondary section.cnt p.comment::before {
+  content: "__commento__";
 }
 div.content.secondary section.cnt.linee div.linee-filtro {
   background-color: #e7e8e9;
@@ -521,7 +642,7 @@ div.content.secondary section.cnt.linee div.linee-filtro input {
   text-align: left;
   font-size: 90%;
   padding: .25em 8px;
-  width: 100%;
+  width: 22%;
 }
 div.content.secondary section.cnt.linee div.linee-filtro input[type=submit] {
   margin-top: 1em;
@@ -531,18 +652,12 @@ div.content.secondary section.cnt.linee div.linee-filtro input[type=submit] {
 div.content.secondary section.cnt.linee div.linee-filtro div.hint {
   font-size: 85%;
 }
-div.content.secondary section.cnt.linee div.linee-index table {
-  padding: 0 4px;
-  font-size: 90%;
-}
-div.content.secondary section.cnt.linee div.linee-index table a {
-  color: #333333;
-}
-div.content.secondary section.cnt.linee div.linee-index table td {
-  padding: 0 4px;
+div.content.secondary section.cnt.linee input.linee-filtro input[type=button] {
+  margin-top: 1em;
+  width: 22%;
+  text-align: center;
 }
 div.content.secondary section.cnt.linee div.linee-index thead {
-  font-weight: bolder;
   text-align: center;
 }
 div.content.secondary section.cnt.linee div.linee-index thead td.icona,
@@ -559,6 +674,17 @@ div.content.secondary section.cnt.linee div.linee-index tbody td.icona,
 div.content.secondary section.cnt.linee div.linee-index tbody td.percorso {
   text-align: left;
 }
+div.content.secondary section.cnt.rss td {
+  vertical-align: middle;
+}
+div.content.secondary section.cnt.rss td.icon,
+div.content.secondary section.cnt.rss td.cb {
+  text-align: center;
+}
+div.content.secondary section.cnt.rss label {
+  width: 20%;
+  font-size: 85%;
+}
 div.content.secondary section.footer {
   margin-top: 1em;
   color: #5a5a5a;
@@ -570,7 +696,8 @@ div.content.secondary.notizie p.filter {
 }
 div.content.secondary.notizie article {
   clear: both;
-  margin-top: 2em;
+  margin-top: 1em;
+  padding-top: 1em;
 }
 div.content.secondary.notizie article div.avvisi-news-icon {
   float: left;
@@ -598,6 +725,41 @@ div.content.secondary.notizie article a {
 div.content.secondary.notizie article.first {
   margin-top: 0;
 }
+/* avvisi */
+tr.avvisi {
+  background-color: #e7e8e9;
+}
+article.avvisi {
+  clear: both;
+  margin-top: 1em;
+}
+article.avvisi div.avvisi-news-icon {
+  float: left;
+  width: 1.5em;
+}
+article.avvisi div.avvisi-news-icon .fa {
+  color: #333333;
+}
+article.avvisi div.avvisi-news-item {
+  margin-left: 2em;
+  text-align: left;
+}
+article.avvisi h4 {
+  font-size: 92.85%;
+  margin: 0;
+  color: #5a5a5a;
+}
+article.avvisi h2 {
+  margin: 0.25em 0;
+  font-size: 114.28%;
+  color: #005495;
+}
+article.avvisi a {
+  color: #005495;
+}
+article.avvisi.first {
+  margin-top: 0;
+}
 div.content.secondary.notizie.approfondimenti img {
   width: 33%;
   float: left;
@@ -609,9 +771,305 @@ div.content.secondary.notizie.approfondimenti p {
 div.content.secondary.notizie.approfondimenti.dettaglio img {
   float: none;
   max-width: 100%;
+  width: 70%;
 }
 div.content.secondary.notizie.approfondimenti.dettaglio p {
   margin-top: 1em;
+  margin-left: 0;
+}
+/* RSS */
+div.content.secondary.rss section.cnt.rss div.rss-wrapper {
+  background-color: #e7e8e9;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-box {
+  padding: 1em 15px;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-box h2 {
+  margin: 0;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  font-size: 120%;
+  border-bottom: 1px solid white;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-servizio td {
+  padding: 0.25em 6px;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-servizio td:first-child {
+  padding-left: 0;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-servizio thead td {
+  font-weight: bolder;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-servizio select {
+  width: 60%;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-servizio .form-control {
+  display: inline-block;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-iscrizione label {
+  font-size: 90%;
+  width: auto;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-iscrizione input,
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-iscrizione textarea {
+  width: 50%;
+  padding: 0.25em 6px;
+  margin-bottom: 1em;
+  text-align: left;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-iscrizione textarea {
+  font-size: 90%;
+  width: 75%;
+  color: #5a5a5a;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-iscrizione input[type=checkbox] {
+  float: left;
+  width: 5%;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-iscrizione p.privacy {
+  margin-left: 7%;
+}
+div.content.secondary.rss section.cnt.rss div.rss-wrapper div.rss-iscrizione input[type=submit] {
+  width: 20%;
+  text-align: center;
+}
+/* form contatti */
+div.content.secondary.form-contatti header h2 {
+  margin-bottom: 2em;
+}
+div.content.secondary.form-contatti div.form input,
+div.content.secondary.form-contatti div.form textarea,
+div.content.secondary.form-contatti div.form select {
+  display: block;
+  width: 75%;
+}
+div.content.secondary.form-contatti div.form input[type="radio"] {
+  width: auto;
+}
+div.content.secondary.form-contatti div.form input,
+div.content.secondary.form-contatti div.form textarea {
+  padding: 0.25em 6px;
+  margin-bottom: 1em;
+  text-align: left;
+}
+div.content.secondary.form-contatti div.form select[name="categoria"] {
+  margin-bottom: 2em;
+}
+div.content.secondary.form-contatti div.form textarea {
+  font-size: 90%;
+  color: #5a5a5a;
+  text-align: left;
+}
+div.content.secondary.form-contatti div.form input[type=checkbox] {
+  float: left;
+  width: 5%;
+}
+div.content.secondary.form-contatti div.form p.privacy {
+  margin-left: 7%;
+}
+div.content.secondary.form-contatti div.form input[type=submit] {
+  width: 20%;
+  text-align: center;
+}
+div.content.secondary.form-contatti div.form .checkbox {
+  line-height: 2em;
+}
+div.content.secondary.form-contatti div.form p.campi-obbligatori {
+  font-size: 90%;
+  margin-top: 2em;
+}
+/* bandi e gare */
+div.content.secondary.bandi-gare h3 {
+  font-size: 100%;
+  color: #005495;
+  margin: 0.5em 0;
+  cursor: pointer;
+}
+div.content.secondary.bandi-gare h3:hover {
+  text-decoration: underline;
+}
+div.content.secondary.bandi-gare section.cnt h2 {
+  margin: 1em 0 0.5em 0;
+  font-size: 120%;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+div.content.secondary.bandi-gare section.bando-wrapper {
+  border: none;
+  border-bottom: 1px solid #005495;
+  padding: 0;
+  margin-bottom: 1em;
+}
+div.content.secondary.bandi-gare header.tipologia-bando {
+  color: #333333;
+  font-weight: bolder;
+  margin: 0 0 0.25em 0;
+  cursor: pointer;
+}
+div.content.secondary.bandi-gare header.tipologia-bando:hover {
+  text-decoration: underline;
+}
+div.content.secondary.bandi-gare table,
+div.content.secondary.lavora-con-noi table {
+  background-color: #f0f0f0;
+  font-size: 90%;
+}
+div.content.secondary.bandi-gare table tbody tr.header-gara,
+div.content.secondary.lavora-con-noi table tbody tr.header-gara {
+  font-weight: bolder;
+}
+div.content.secondary.bandi-gare table tbody tr.header-lotto td,
+div.content.secondary.lavora-con-noi table tbody tr.header-lotto td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+div.content.secondary.bandi-gare table tbody td.qualificazione-durata,
+div.content.secondary.lavora-con-noi table tbody td.qualificazione-durata {
+  text-align: center;
+}
+div.content.secondary.bandi-gare table tbody td.scadenza,
+div.content.secondary.lavora-con-noi table tbody td.scadenza {
+  font-size: 95%;
+}
+div.content.secondary.bandi-gare table tbody div.gara-allegati-sx,
+div.content.secondary.lavora-con-noi table tbody div.gara-allegati-sx {
+  float: left;
+  width: 10px;
+}
+div.content.secondary.bandi-gare table tbody td.chiarimenti,
+div.content.secondary.lavora-con-noi table tbody td.chiarimenti {
+  width: 25%;
+}
+div.content.secondary.bandi-gare table tbody div.gara-allegati-dx,
+div.content.secondary.lavora-con-noi table tbody div.gara-allegati-dx {
+  margin-left: 15px;
+}
+div.content.secondary.bandi-gare table tbody td.header-lotto,
+div.content.secondary.lavora-con-noi table tbody td.header-lotto,
+div.content.secondary.bandi-gare table tbody tr.header-gara,
+div.content.secondary.lavora-con-noi table tbody tr.header-gara {
+  background-color: #e7e8e9;
+}
+/* lavora con noi */
+div.content.secondary.lavora-con-noi div.panel {
+  width: 100%;
+}
+div.content.secondary.lavora-con-noi h3.panel-title {
+  margin: 0;
+  color: #005495;
+}
+div.content.secondary.lavora-con-noi h3 {
+  font-size: 100%;
+  color: #005495;
+  margin: 0.5em 0;
+  cursor: pointer;
+}
+div.content.secondary.lavora-con-noi h3:hover {
+  text-decoration: underline;
+}
+div.content.secondary.lavora-con-noi section.cnt h2 {
+  margin: 1em 0 0.5em 0;
+  font-size: 120%;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+div.content.secondary.lavora-con-noi div.form label,
+div.content.secondary.lavora-con-noi div.form input,
+div.content.secondary.lavora-con-noi div.form textarea {
+  display: block;
+}
+div.content.secondary.lavora-con-noi div.form input,
+div.content.secondary.lavora-con-noi div.form select,
+div.content.secondary.lavora-con-noi div.form textarea {
+  text-align: left;
+  width: 60%;
+  margin-bottom: 1em;
+}
+div.content.secondary.lavora-con-noi div.form textarea {
+  width: 80%;
+  margin-bottom: 0.5em;
+}
+div.content.secondary.lavora-con-noi div.form input[type=checkbox] {
+  width: 5%;
+  display: inline;
+  margin: 0;
+}
+div.content.secondary.lavora-con-noi div.form p.checkbox {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+div.content.secondary.lavora-con-noi div.form input[type=submit] {
+  width: 20%;
+  margin-top: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+div.content.secondary.lavora-con-noi div.form label.checkbox {
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+div.content.secondary.lavora-con-noi table tr.header-iscrizioni {
+  font-weight: bolder;
+}
+div.content.secondary.lavora-con-noi table td.iscriviti .fa:hover {
+  text-decoration: underline;
+}
+div.content.secondary.lavora-con-noi span.id-selezione {
+  font-weight: bolder;
+}
+/* Google Transit */
+div.content.secondary.google-transit div#info {
+  margin: 1em 0;
+}
+div.content.secondary.google-transit div.form-group {
+  margin-bottom: 0.5em;
+}
+div.content.secondary.google-transit div.form-group input,
+div.content.secondary.google-transit div.form-group select {
+  width: 80%;
+}
+div.content.secondary.google-transit div.adp-list {
+  padding: 0.5em 10px;
+}
+div.content.secondary.google-transit div.adp-list ol > li {
+  padding: 0.25em 6px;
+}
+/* risultati ricerca */
+section.notizie.index.ricerca h2 {
+  margin-bottom: 1em;
+}
+section.notizie.index.ricerca div.pager .pagination > .active > a {
+  color: white;
+  background-color: #0071bb;
+  border-color: #0071bb;
+}
+section.notizie.index.ricerca div.pager a {
+  color: #333333;
+}
+article.ricerca p.ricerca-keyword {
+  font-size: 100%;
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+article.ricerca form.ricerca-form p {
+  margin: 0 0 1em 0;
+  padding: 0;
+  color: #c8c8c8;
+}
+article.ricerca ul.ricerca-dettaglio {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+article.ricerca ul.ricerca-dettaglio li {
+  margin-bottom: 0.5em;
+}
+article.ricerca ul.ricerca-dettaglio li:last-child {
+  margin-bottom: 0;
+}
+article.ricerca a.ricerca-link {
+  color: #0071bb;
 }
 /* home page highlights */
 div.highlights {
@@ -626,6 +1084,30 @@ div.highlights h2 {
 div.highlights article,
 div.small-highlights article {
   margin: 1em 0;
+}
+/* pager news */
+div.RadDataPager_MetroTouch {
+  margin-left: 2em;
+  padding: 0;
+  border: none;
+}
+div.RadDataPager_MetroTouch.rdpWrap {
+  line-height: auto;
+}
+div.RadDataPager.rdpWrap {
+  padding: 0 1em;
+  line-height: auto;
+}
+.RadDataPager_MetroTouch .rdpNumPart a,
+.RadDataPager_MetroTouch .rdpPagerButton,
+.RadDataPager_MetroTouch .rdpWrap,
+.RadDataPager_MetroTouch .rdpWrapRight,
+.RadDataPager_MetroTouch .rdpWrapNone {
+  line-height: auto;
+}
+.RadDataPager_MetroTouch .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_MetroTouch .rdpNumPart a.rdpCurrentPage:hover {
+  background-color: #005495;
 }
 /**
  * Right sidebar
@@ -651,6 +1133,32 @@ div.right-sidebar.allegati div.allegati-item {
 /* iscrizione-notizie */
 div.iscrizione-notizie header p {
   margin: 0;
+}
+@media screen and (max-width: 991px) {
+  div.content.secondary header h2 {
+    width: 100%;
+  }
+  div.content.secondary header ul {
+    clear: both;
+    margin-left: 0;
+    width: 100%;
+    text-align: left;
+  }
+  div.content.secondary section.cnt.linee div.linee-filtro input {
+    width: 100%;
+  }
+  div.content.secondary section.cnt.linee div.linee-filtro input[type=submit] {
+    width: 45%;
+  }
+  div.content.secondary section.cnt.linee div.linee-filtro div.filtro-left {
+    float: none;
+    width: 100%;
+  }
+  div.content.secondary section.cnt.linee div.linee-filtro div.filtro-right {
+    margin-top: 1em;
+    margin-left: 0;
+    width: 100%;
+  }
 }
 /**
  * Footer
@@ -724,6 +1232,10 @@ div.territori-footer p {
   font-size: 90%;
   line-height: 1.5em;
 }
+div.info-footer a.link-footer,
+div.territori-footer a.link-footer {
+  color: white;
+}
 div.territori-footer div.row {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -758,6 +1270,21 @@ div.territori-footer ul.minor {
 div.territori-footer ul.minor li a {
   font-size: 90%;
 }
+div.logo-regione-wrapper {
+  width: 100%;
+  text-align: right;
+}
+div.logo-regione-wrapper img {
+  max-height: 60px;
+}
+@media screen and (max-width: 991px) {
+  footer .footer-first {
+    padding-left: 15px;
+  }
+  footer .footer-last {
+    padding-right: 15px;
+  }
+}
 /**
  * Carousel
 **/
@@ -791,4 +1318,98 @@ div#banner div.carousel-caption {
   padding: 0;
   left: 4%;
   bottom: 12%;
+}
+/**
+ * Componenti Leonardo
+ */
+/**
+  * SearchBox autocomplete
+ **/
+.rsbHeader ul,
+.rsbListItem ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: inline-block;
+  list-style-type: none;
+}
+.rsbHeader ul {
+  padding-left: 5px;
+  font-weight: bold;
+}
+.col1,
+.col2,
+.col3 {
+  margin: 0;
+  padding: 0 5px 0 0;
+  width: 110px;
+  line-height: 14px;
+  float: left;
+  font-size: 80%;
+}
+div.content.secondary section.cnt div.area-riservata input[type=button] {
+  margin-top: 0.5em;
+  width: 15%;
+  text-align: center;
+}
+/**
+  * RadWindow with close button
+ **/
+.rwControlButtons {
+  position: relative;
+}
+.rwIcon {
+  display: none !important;
+}
+.rwCloseButton {
+  position: absolute;
+  top: -18px;
+  left: -8px;
+  background-image: url(/assets/img/close_popup.png) !important;
+  background-position: 0 0 !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+.RadWindow_MetroTouch .rwTitleRow .rwTitlebar,
+.RadWindow_MetroTouch .rwTitleRow .rwTopLeft,
+.RadWindow_MetroTouch .rwTitleRow .rwTopRight {
+  height: 1px !important;
+  background-color: white !important;
+}
+.RadWindow_MetroTouch .rwTable .rwTitlebarControls {
+  height: 1px !important;
+}
+.RadWindow_MetroTouch .rwTable .rwTitlebarControls em {
+  font-size: 1px !important;
+  padding: 0px 0 0 0!important;
+}
+/**
+ * Pager
+ */
+div.RadDataPager.RadDataPager_MetroTouch {
+  margin-top: 1em;
+}
+div.RadDataPager.RadDataPager_MetroTouch div.rdpWrap {
+  padding: 0;
+}
+div.RadDataPager.RadDataPager_MetroTouch div.rdpWrap.rdpNumPart {
+  padding: 0 15px;
+  line-height: 30px;
+}
+div.RadDataPager.RadDataPager_MetroTouch .RadDataPager_MetroTouch .rdpNumPart a.rdpCurrentPage,
+div.RadDataPager.RadDataPager_MetroTouch .RadDataPager_MetroTouch .rdpNumPart a.rdpCurrentPage:hover {
+  background-color: #0071bb;
+}
+div.RadDataPager.RadDataPager_MetroTouch .RadDataPager_MetroTouch .rdpNumPart a,
+div.RadDataPager.RadDataPager_MetroTouch .RadDataPager_MetroTouch .rdpPagerButton,
+div.RadDataPager.RadDataPager_MetroTouch .RadDataPager_MetroTouch .rdpWrap,
+div.RadDataPager.RadDataPager_MetroTouch .RadDataPager_MetroTouch .rdpWrapRight,
+div.RadDataPager.RadDataPager_MetroTouch .RadDataPager_MetroTouch .rdpWrapNone {
+  line-height: 30px;
+}
+/**
+ * Ultimi ritocchi
+ */
+a[data-toggle="collapse"] {
+  cursor: pointer;
 }

@@ -109,8 +109,17 @@ div.highlights {
   }
 }
 div.content.secondary.bandi-gare {
-  h3 {
+  h2 {
     color: @orange;
+  }
+  h3 {
+    color: @dark-gray;
+    margin-bottom: 1em;
+  }
+  h3::before {
+    content: '• ';
+    color: #faab18;
+    padding-right: 6px;
   }
   section.bando-wrapper {
     border-bottom-color: @orange;
@@ -130,6 +139,79 @@ div.content.secondary.lavora-con-noi {
     color: @orange;
   }
 }
+/* form iscrizione newsletter */
+div.content.secondary.form-contatti div.form input[type=submit] {
+  background-color: @orange;
+  border-color: @orange;
+}
+/* pager */
+.pager li>a {
+  border-radius: 0;
+}
+/* risultati ricerca */
+section.notizie.index.ricerca {
+  div.pager {
+    .pagination>.active>a {
+      background-color: @orange;
+      border-color: @orange;
+    }
+  }
+}
+
+/**
+ * Form operatori esercizio
+**/
+div.content.secondary.form-contatti div.form select {
+  width: 30%;
+}
+div.form-operatori-esercizio {
+  label.dichiarazione {
+    font-weight: normal;
+  }
+  h2 {
+    font-size: 120%;
+    background-color: @orange;
+    margin: 2em 0 1em 0;
+    padding: 0.25em 6px;
+    width: 75%;
+    color: white;
+  }
+  fieldset.dichiarazione {
+    margin-bottom: 1em; 
+    legend {
+      font-size: 100%;
+      font-weight: normal;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    label, input[type="radio"].form-control {
+      margin: 0;
+      display: inline;
+    }
+    input[type="radio"].form-control {
+      margin-right: 3px;
+    }
+    label {
+      padding-left: 0;
+      margin-right: 15px;
+    }
+  }
+  textarea {
+    width: 100%;
+  }
+}
+div.content.secondary.form-contatti div.form {
+  textarea {
+    width: 100%;
+  }
+  select {
+    margin-bottom: 1em;
+  }
+  select.si-no {
+    width: 10%;
+  }
+}
+
 
 /**
  * Footer
@@ -148,4 +230,22 @@ div.territori-footer {
     background-color: @orange;
     border-top: 1px solid @x-light-gray;
   }
+}
+div.footer {
+  a {
+    color: white;    
+  }
+  div.logo-wrapper img {
+    max-height: 60px;
+  }
+}
+
+/**
+ * Pager
+ */
+div.RadDataPager.RadDataPager_MetroTouch {
+  .RadDataPager_MetroTouch .rdpNumPart a.rdpCurrentPage, 
+  .RadDataPager_MetroTouch .rdpNumPart a.rdpCurrentPage:hover {
+    background-color: @orange;
+  } 
 }

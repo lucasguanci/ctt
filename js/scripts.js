@@ -5,6 +5,12 @@ $(document).ready(function() {
   $('#wb').bind('click',function(e) {
     return toggleWB();
   })
+  // pager
+  $('ul.pagination').on('click', function(e) {
+    // $(e.target).find('.active').removeClass('active')
+    $(e.target).parent().siblings().removeClass("active");
+    $(e.target).parent().addClass("active");
+  })
 })
 function toggleWB() {
   if ( !isWB ) {

@@ -54,7 +54,7 @@
                     <!-- nome -->
                     <label for="profilazione-nome" class="first">Nome</label>
                     <br>             
-                    <input type="text" class="btn btn-default" name="profilazione-nome" placeholder="mario" />
+                    <input type="text" class="form-control" name="profilazione-nome" placeholder="mario" />
                     <br>
                     <!-- cognome -->
                     <label for="profilazione-cognome">Cognome</label>

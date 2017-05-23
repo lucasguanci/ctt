@@ -26,12 +26,12 @@
                   </header>
                   <section id="bandi-attivi" class="bando-wrapper collapse">
                     <!-- es. 1 lotto -->
-                    <div class="table-wrapper" data-toggle="collapse" data-target="#gara-4254333">
-                      <h3>
+                    <div class="table-wrapper">
+                      <h3 data-toggle="collapse" data-target="#gara-4254333">
                         Gara n. <span class="gara-n">4254333</span> - lotti gara <span class="gara-n-lotti">1</span>
                       </h3>
                       <div id="gara-4254333" class="table-responsive collapse">
-                        <table class="table table-hover">
+                        <table class="table">
                           <tbody>
                             <!-- header gara -->
                             <tr class="header-gara">
@@ -67,13 +67,13 @@
                     </div>
                     <!-- /es. 1 lotti -->
                     <!-- es. 3 lotti -->
-                    <div class="table-wrapper" data-toggle="collapse" data-target="#gara-887543">
-                      <h3>
+                    <div class="table-wrapper">
+                      <h3 data-toggle="collapse" data-target="#gara-887543">
                         Gara n. <span class="gara-n">887543</span> - lotti gara <span class="gara-n-lotti">3</span>
                       </h3>
                       <!-- gara -->
                       <div id="gara-887543" class="table-responsive collapse">
-                        <table class="table table-hover">
+                        <table class="table">
                           <tbody>
                             <!-- header gara -->
                             <tr class="header-gara">
@@ -201,7 +201,7 @@
                         Gara n. <span class="gara-n">7655432</span> - lotti gara <span class="gara-n-lotti">1</span>
                       </h3>
                       <div id="gara-7655432" class="table-responsive collapse">
-                        <table class="table table-hover">
+                        <table class="table">
                           <tbody>
                             <!-- header gara -->
                             <tr class="header-gara">
@@ -230,7 +230,7 @@
                       </h3>
                       <!-- gara -->
                       <div id="gara-432209" class="table-responsive collapse">
-                        <table class="table table-hover">
+                        <table class="table">
                           <tbody>
                             <!-- header gara -->
                             <tr class="header-gara">
@@ -318,7 +318,7 @@
                         Gara n. <span class="gara-n">498765</span> - lotti gara <span class="gara-n-lotti">1</span>
                       </h3>
                       <div id="gara-498765" class="table-responsive collapse">
-                        <table class="table table-hover">
+                        <table class="table">
                           <tbody>
                             <!-- header gara -->
                             <tr class="header-gara">
@@ -355,7 +355,7 @@
                       </h3>
                       <!-- gara -->
                       <div id="gara-675409" class="table-responsive collapse">
-                        <table class="table table-hover">
+                        <table class="table">
                           <tbody>
                             <!-- header gara -->
                             <tr class="header-gara">
@@ -463,7 +463,7 @@
                         Gara n. <span class="gara-n">5172989</span> - lotti gara <span class="gara-n-lotti">1</span>
                       </h3>
                       <div id="gara-5172989" class="table-responsive collapse">
-                        <table class="table table-hover">
+                        <table class="table">
                           <tbody>
                             <!-- header gara -->
                             <tr class="header-gara">
@@ -508,7 +508,7 @@
                       </h3>
                       <!-- gara -->
                       <div id="gara-109876" class="table-responsive collapse">
-                        <table class="table table-hover">
+                        <table class="table">
                           <tbody>
                             <!-- header gara -->
                             <tr class="header-gara">
@@ -648,7 +648,7 @@
                         Gara n. <span class="gara-n">609811</span> - lotti gara <span class="gara-n-lotti">1</span>
                       </h3>
                       <div id="gara-609811" class="table-responsive collapse">
-                        <table class="table table-hover">
+                        <table class="table">
                           <tbody>
                             <!-- header gara -->
                             <tr class="header-gara">
@@ -677,7 +677,7 @@
                       </h3>
                       <!-- gara -->
                       <div id="gara-2876654" class="table-responsive collapse">
-                        <table class="table table-hover">
+                        <table class="table">
                           <tbody>
                             <!-- header gara -->
                             <tr class="header-gara">

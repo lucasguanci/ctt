@@ -81,15 +81,20 @@
       <div class="info-footer">
         <div class="container footer">
           <div class="row">
-            <div class="col-md-12 info footer-first footer-last">
-              <p>
-                <strong>CTT nord</strong><br>
-                piazza Duomo, 59100 Prato<br>
-                tel. 050 884111 &ndash; fax 050 884284<br>
-                info@cttcompany.it &ndash; cttnordsrl@legalmail.it<br>
-                CF/P.IVA 01954820971 &ndash; Capitale sociale 41.965.914 euro i.v. 
-              </p>
-            </div>
+              <div class="col-md-9 info footer-first">
+                  <p>
+                    <strong>CTT nord</strong><br>
+                    piazza Duomo, 59100 Prato<br>
+                    tel. 050 884111 &ndash; fax 050 884284<br>
+                    info@cttcompany.it &ndash; cttnordsrl@legalmail.it<br>
+                    CF/P.IVA 01954820971 &ndash; Capitale sociale 41.965.914 euro i.v. 
+                  </p>
+              </div>
+              <div class="col-md-3 footer-last">
+                  <div class="logo-wrapper">
+                      <img src="http://www.livorno.cttnord.it/img/logo-regione-toscana-verde.png" alt="logo Regione Toscana">
+                  </div>
+              </div>
           </div>
         </div>
       </div>

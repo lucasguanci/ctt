@@ -13,6 +13,8 @@
                   <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
                   <li class="sep">|</li>
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="sep">|</li>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                 </ul>
               </header>
               <article class="index first">

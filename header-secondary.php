@@ -8,21 +8,19 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 header-left">
-            <a href="index.php"><img id="logo" src="img/logo-CTT-compagnia-toscana-trasporti.png" alt="logo CAP autolinee" /></a>          </div>          
+            <a href="index.php"><img id="logo" src="img/logo-CTT-compagnia-toscana-trasporti.png" alt="logo CAP autolinee" /></a>
+          </div>          
           <div class="col-md-6 header-right">
             <div class="row search">
               <nav class="navbar navbar-default" role="navigation">
                 <ul class="nav navbar-nav">
                   <li><a id="wb" href="index.php">alto contrasto</a></li>
-                  <li class="active"><a href="#">IT</a></li>
-                  <li><a href="#">EN</a></li>
-                  <li>
-                    <button class="btn bt-default search">
-                      <span class="glyphicon glyphicon-search" style="padding-right: 4px"></span>&nbsp;
-                      cerca
-                    </button>
-                  </li>
                 </ul>
+                <div class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control search" placeholder="cerca">
+                  </div>    
+                </div>
               </nav>
             </div>
             <div class="clear"></div>
